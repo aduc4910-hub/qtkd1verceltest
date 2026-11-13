@@ -1,0 +1,1730 @@
+﻿[
+    {
+        "inquiry_id":  "REQ-001",
+        "customer_name":  "Công ty TNHH Giải pháp Phần mềm FPT Tech",
+        "contact_email":  "procurement@fpttech.com.vn",
+        "assigned_rep":  {
+                             "id":  "SR05",
+                             "name":  "Vũ Minh Đức",
+                             "email":  "duc.vm@minhan.com.vn"
+                         },
+        "status":  "Có thể tiếp tục",
+        "eligible_for_pipeline":  true,
+        "subtotal":  128000000,
+        "applied_discount_rate":  0.08,
+        "discount_amount":  10240000,
+        "final_total":  117760000,
+        "budget":  135000000,
+        "deadline_days":  7,
+        "max_lead_time_days":  3,
+        "approval_required":  false,
+        "approval_reason":  null,
+        "classification_reasons":  [
+                                       "Đầy đủ thông tin, hàng khả dụng đủ/kịp tiến độ (3 ngày \u003c= 7 ngày), ngân sách hợp lệ và chiết khấu trong thẩm quyền NVKD."
+                                   ],
+        "enriched_items":  [
+                               {
+                                   "product_id":  "PROD-001",
+                                   "product_name":  "Laptop Dell Latitude 5540 (Core i7, 16GB, 512GB)",
+                                   "quantity":  4,
+                                   "list_price":  25000000,
+                                   "line_total":  100000000,
+                                   "stock_available":  20,
+                                   "stock_sufficient":  true,
+                                   "lead_time_days":  2
+                               },
+                               {
+                                   "product_id":  "PROD-003",
+                                   "product_name":  "Cisco Catalyst Switch 24-Port Gigabit PoE (C9200L-24P-4G-E)",
+                                   "quantity":  1,
+                                   "list_price":  18000000,
+                                   "line_total":  18000000,
+                                   "stock_available":  15,
+                                   "stock_sufficient":  true,
+                                   "lead_time_days":  2
+                               },
+                               {
+                                   "product_id":  "PROD-005",
+                                   "product_name":  "Dịch vụ Triển khai Cài đặt \u0026 Cấu hình Hệ thống (Gói Doanh nghiệp)",
+                                   "quantity":  1,
+                                   "list_price":  10000000,
+                                   "line_total":  10000000,
+                                   "stock_available":  999,
+                                   "stock_sufficient":  true,
+                                   "lead_time_days":  3
+                               }
+                           ],
+        "dossier_md":  "# HỒ SƠ CƠ HỘI BÁN HÀNG B2B (OPPORTUNITY DOSSIER)\n- **Mã hồ sơ:** REQ-001\n- **Khách hàng:** Công ty TNHH Giải pháp Phần mềm FPT Tech\n- **Email liên hệ:** procurement@fpttech.com.vn\n- **Chuyên viên phụ trách:** Vũ Minh Đức (duc.vm@minhan.com.vn)\n- **Trạng thái phân loại:** **Có thể tiếp tục**\n- **Thời gian lập hồ sơ:** 2026-11-13 07:35:29\n\n---\n\n## 1. Kết quả Đánh giá Nghiệp vụ \u0026 Khả năng đáp ứng:\n- **Tổng giá trị niêm yết (Subtotal):** 128,000,000 VND\n- **Tỷ lệ chiết khấu áp dụng:** 8% (10,240,000 VND)\n- **Tổng giá trị đề xuất sau chiết khấu:** **117,760,000 VND**\n- **Ngân sách khách hàng:** 135,000,000 VND\n- **Thời hạn giao hàng cam kết:** 3 ngày (Khách yêu cầu: 7 ngày)\n\n## 2. Lý do Phân loại Trạng thái:\n- Đầy đủ thông tin, hàng khả dụng đủ/kịp tiến độ (3 ngày \u003c= 7 ngày), ngân sách hợp lệ và chiết khấu trong thẩm quyền NVKD.\r\n\n\n## 3. Danh mục Hạng mục Báo giá (BoQ):\n| Mã SP | Tên Sản Phẩm | SL | Đơn Giá (VND) | Thành Tiền (VND) | Tồn kho ATP | Lead Time |\n| :--- | :--- | :---: | :---: | :---: | :---: | :---: |\n| PROD-001 | Laptop Dell Latitude 5540 (Core i7, 16GB, 512GB) | 4 | 25,000,000 | 100,000,000 | 20 | 2 ngày |\r\n| PROD-003 | Cisco Catalyst Switch 24-Port Gigabit PoE (C9200L-24P-4G-E) | 1 | 18,000,000 | 18,000,000 | 15 | 2 ngày |\r\n| PROD-005 | Dịch vụ Triển khai Cài đặt \u0026 Cấu hình Hệ thống (Gói Doanh nghiệp) | 1 | 10,000,000 | 10,000,000 | 999 | 3 ngày |\r\n",
+        "draft_email":  "Kính gửi Quý Khách hàng (Công ty TNHH Giải pháp Phần mềm FPT Tech),\n\nCông ty Cổ phần Công nghệ Minh An xin chân thành cảm ơn Quý đơn vị đã quan tâm và gửi yêu cầu chào giá.\n\nChúng tôi trân trọng gửi tới Quý khách Báo giá chi tiết cho các hạng mục thiết bị và dịch vụ:\n- Tổng giá trị niêm yết: 128,000,000 VND\n- Chiết khấu ưu đãi doanh nghiệp (8%): -10,240,000 VND\n- TỔNG GIÁ TRỊ THANH TOÁN (đã gồm VAT): 117,760,000 VND\n- Thời gian bàn giao và triển khai: Trong vòng 3 ngày làm việc kể từ ngày ký hợp đồng.\n\nHàng hóa được cam kết chính hãng 100%, bảo hành tiêu chuẩn theo quy định của nhà sản xuất. Báo giá có hiệu lực trong vòng 15 ngày.\n\nRất mong sớm nhận được phản hồi và có cơ hội hợp tác cùng Quý công ty.\n\nTrân trọng,\nVũ Minh Đức - Chuyên viên Kinh doanh B2B\nPhòng Kinh doanh • Công ty Cổ phần Công nghệ Minh An\nHotline: 1900 8866 • Email: duc.vm@minhan.com.vn",
+        "approval_ticket":  null,
+        "trace_logs":  [
+                           {
+                               "inquiry_id":  "REQ-001",
+                               "timestamp":  "2026-11-13 07:35:29",
+                               "step_name":  "1. Tiếp nhận \u0026 Phân tích yêu cầu",
+                               "skill_called":  "requirement_analysis",
+                               "tool_called":  "tool_extract_and_validate",
+                               "tool_input":  {
+                                                  "customer_name":  "Công ty TNHH Giải pháp Phần mềm FPT Tech",
+                                                  "raw_text":  "Kính gửi Công ty Minh An, chúng tôi cần trang bị cho dự án mới gồm: 4 Laptop Dell Latitude 5540, 1 Cisco Catalyst Switch 24-Port và 1 Gói Dịch vụ Triển khai Cài đặt. Ngân sách tối đa của chúng tôi là 135 triệu VND. Đề nghị công ty chiết khấu 8% và giao hàng trong vòng 7 ngày làm việc."
+                                              },
+                               "tool_output":  {
+                                                   "is_complete":  true,
+                                                   "missing_fields":  [
+
+                                                                      ]
+                                               },
+                               "rules_applied":  "Kiểm tra tính đầy đủ 5 trường: Customer, Email, Items, Budget, Deadline",
+                               "decision":  "Đầy đủ thông tin hợp lệ -\u003e Chuyển sang Thẩm định nghiệp vụ.",
+                               "execution_time_ms":  34
+                           },
+                           {
+                               "inquiry_id":  "REQ-001",
+                               "timestamp":  "2026-11-13 07:35:29",
+                               "step_name":  "2. Thẩm định kho, giá \u0026 Ma trận phê duyệt",
+                               "skill_called":  "opportunity_evaluation",
+                               "tool_called":  "tool_evaluate_feasibility_and_pricing",
+                               "tool_input":  {
+                                                  "deadline":  7,
+                                                  "budget":  135000000,
+                                                  "items":  [
+                                                                {
+                                                                    "product_id":  "PROD-001",
+                                                                    "product_name":  "Laptop Dell Latitude 5540",
+                                                                    "quantity":  4
+                                                                },
+                                                                {
+                                                                    "product_id":  "PROD-003",
+                                                                    "product_name":  "Cisco Catalyst Switch 24-Port",
+                                                                    "quantity":  1
+                                                                },
+                                                                {
+                                                                    "product_id":  "PROD-005",
+                                                                    "product_name":  "Dịch vụ Triển khai Cài đặt",
+                                                                    "quantity":  1
+                                                                }
+                                                            ]
+                                              },
+                               "tool_output":  {
+                                                   "subtotal":  128000000,
+                                                   "status":  "Có thể tiếp tục",
+                                                   "lead_time":  3,
+                                                   "final_total":  117760000
+                                               },
+                               "rules_applied":  "Bảng giá Master, Tồn kho ATP, Chính sách chiết khấu Tier 1-4, Thẩm quyền NVKD \u003c= 10% \u0026 \u003c= 200M",
+                               "decision":  "Xác định trạng thái: Có thể tiếp tục. Lý do: Đầy đủ thông tin, hàng khả dụng đủ/kịp tiến độ (3 ngày \u003c= 7 ngày), ngân sách hợp lệ và chiết khấu trong thẩm quyền NVKD.",
+                               "execution_time_ms":  91
+                           },
+                           {
+                               "inquiry_id":  "REQ-001",
+                               "timestamp":  "2026-11-13 07:35:29",
+                               "step_name":  "3. Tạo Hồ sơ, Dự thảo Email \u0026 Phiếu duyệt",
+                               "skill_called":  "sales_document_generator",
+                               "tool_called":  "tool_generate_dossier_email_ticket",
+                               "tool_input":  {
+                                                  "assigned_rep":  "Vũ Minh Đức",
+                                                  "status":  "Có thể tiếp tục"
+                                              },
+                               "tool_output":  {
+                                                   "has_email":  true,
+                                                   "has_dossier":  true,
+                                                   "has_ticket":  false
+                                               },
+                               "rules_applied":  "Mẫu hồ sơ B2B chuẩn, Quy chuẩn soạn thảo email chào giá, Phiếu trình duyệt Trưởng phòng",
+                               "decision":  "Hoàn tất tạo hồ sơ . Sẵn sàng bàn giao cho NVKD (Vũ Minh Đức).",
+                               "execution_time_ms":  68
+                           }
+                       ],
+        "processed_at":  "2026-11-13 07:35:29"
+    },
+    {
+        "inquiry_id":  "REQ-002",
+        "customer_name":  "Tập đoàn Xây dựng An Thịnh",
+        "contact_email":  "muasam@anthinhgroup.vn",
+        "assigned_rep":  {
+                             "id":  "SR02",
+                             "name":  "Trần Thị Bình",
+                             "email":  "binh.tt@minhan.com.vn"
+                         },
+        "status":  "Cần bổ sung",
+        "eligible_for_pipeline":  false,
+        "subtotal":  0,
+        "applied_discount_rate":  null,
+        "discount_amount":  0,
+        "final_total":  0,
+        "budget":  null,
+        "deadline_days":  5,
+        "max_lead_time_days":  null,
+        "approval_required":  false,
+        "approval_reason":  null,
+        "classification_reasons":  [
+                                       "Thiếu thông tin bắt buộc: Ngân sách dự kiến (budget)"
+                                   ],
+        "enriched_items":  [
+
+                           ],
+        "dossier_md":  "# HỒ SƠ CƠ HỘI BÁN HÀNG B2B (OPPORTUNITY DOSSIER)\n- **Mã hồ sơ:** REQ-002\n- **Khách hàng:** Tập đoàn Xây dựng An Thịnh\n- **Email liên hệ:** muasam@anthinhgroup.vn\n- **Chuyên viên phụ trách:** Trần Thị Bình (binh.tt@minhan.com.vn)\n- **Trạng thái phân loại:** **Cần bổ sung**\n- **Thời gian lập hồ sơ:** 2026-11-13 07:35:29\n\n---\n\n## 1. Kết quả Đánh giá Nghiệp vụ \u0026 Khả năng đáp ứng:\n- **Tổng giá trị niêm yết (Subtotal):** 0 VND\n- **Tỷ lệ chiết khấu áp dụng:** 0% (0 VND)\n- **Tổng giá trị đề xuất sau chiết khấu:** **0 VND**\n- **Ngân sách khách hàng:** Chưa cung cấp\n- **Thời hạn giao hàng cam kết:**  ngày (Khách yêu cầu: 5 ngày)\n\n## 2. Lý do Phân loại Trạng thái:\n- Thiếu thông tin bắt buộc: Ngân sách dự kiến (budget)\r\n\n\n## 3. Danh mục Hạng mục Báo giá (BoQ):\n| Mã SP | Tên Sản Phẩm | SL | Đơn Giá (VND) | Thành Tiền (VND) | Tồn kho ATP | Lead Time |\n| :--- | :--- | :---: | :---: | :---: | :---: | :---: |\n",
+        "draft_email":  "Kính gửi Quý Khách hàng (Tập đoàn Xây dựng An Thịnh),\n\nCông ty Minh An trân trọng cảm ơn Quý đơn vị đã liên hệ. Để chúng tôi có thể lập phương án báo giá chính xác và tối ưu nhất, kính đề nghị Quý khách vui lòng làm rõ/bổ sung các thông tin sau:\n- Ngân sách dự kiến (budget)\r\n\n\nNgay sau khi nhận đủ thông tin, chuyên viên Minh An sẽ gửi Báo giá chính thức trong vòng 04 giờ làm việc.\n\nTrân trọng cảm ơn,\nTrần Thị Bình (binh.tt@minhan.com.vn)\nPhòng Kinh doanh • Công ty Minh An",
+        "approval_ticket":  null,
+        "trace_logs":  [
+                           {
+                               "inquiry_id":  "REQ-002",
+                               "timestamp":  "2026-11-13 07:35:29",
+                               "step_name":  "1. Tiếp nhận \u0026 Phân tích yêu cầu",
+                               "skill_called":  "requirement_analysis",
+                               "tool_called":  "tool_extract_and_validate",
+                               "tool_input":  {
+                                                  "customer_name":  "Tập đoàn Xây dựng An Thịnh",
+                                                  "raw_text":  "Chào Minh An, bên anh cần mua 6 Laptop Dell Latitude 5540 và 2 Bộ phát WiFi 6 Cisco Business 150AX cho văn phòng công trường. Thời hạn bàn giao là 5 ngày tới. Chiết khấu hữu nghị 5% nhé. Hiện công ty chưa chốt ngân sách chi tiết, báo giá nhanh để trình sếp."
+                                              },
+                               "tool_output":  {
+                                                   "is_complete":  false,
+                                                   "missing_fields":  [
+                                                                          "Ngân sách dự kiến (budget)"
+                                                                      ]
+                                               },
+                               "rules_applied":  "Kiểm tra tính đầy đủ 5 trường: Customer, Email, Items, Budget, Deadline",
+                               "decision":  "Thiếu thông tin: Ngân sách dự kiến (budget) -\u003e Kích hoạt nhánh Bổ sung.",
+                               "execution_time_ms":  2
+                           },
+                           {
+                               "inquiry_id":  "REQ-002",
+                               "timestamp":  "2026-11-13 07:35:29",
+                               "step_name":  "2. Thẩm định kho, giá \u0026 Ma trận phê duyệt",
+                               "skill_called":  "opportunity_evaluation",
+                               "tool_called":  "tool_evaluate_feasibility_and_pricing",
+                               "tool_input":  {
+                                                  "deadline":  5,
+                                                  "budget":  null,
+                                                  "items":  [
+                                                                {
+                                                                    "product_id":  "PROD-001",
+                                                                    "product_name":  "Laptop Dell Latitude 5540",
+                                                                    "quantity":  6
+                                                                },
+                                                                {
+                                                                    "product_id":  "PROD-004",
+                                                                    "product_name":  "Bộ phát WiFi 6 Cisco Business 150AX",
+                                                                    "quantity":  2
+                                                                }
+                                                            ]
+                                              },
+                               "tool_output":  {
+                                                   "subtotal":  0,
+                                                   "status":  "Cần bổ sung",
+                                                   "lead_time":  null,
+                                                   "final_total":  0
+                                               },
+                               "rules_applied":  "Bảng giá Master, Tồn kho ATP, Chính sách chiết khấu Tier 1-4, Thẩm quyền NVKD \u003c= 10% \u0026 \u003c= 200M",
+                               "decision":  "Xác định trạng thái: Cần bổ sung. Lý do: Thiếu thông tin bắt buộc: Ngân sách dự kiến (budget)",
+                               "execution_time_ms":  3
+                           },
+                           {
+                               "inquiry_id":  "REQ-002",
+                               "timestamp":  "2026-11-13 07:35:29",
+                               "step_name":  "3. Tạo Hồ sơ, Dự thảo Email \u0026 Phiếu duyệt",
+                               "skill_called":  "sales_document_generator",
+                               "tool_called":  "tool_generate_dossier_email_ticket",
+                               "tool_input":  {
+                                                  "assigned_rep":  "Trần Thị Bình",
+                                                  "status":  "Cần bổ sung"
+                                              },
+                               "tool_output":  {
+                                                   "has_email":  true,
+                                                   "has_dossier":  true,
+                                                   "has_ticket":  false
+                                               },
+                               "rules_applied":  "Mẫu hồ sơ B2B chuẩn, Quy chuẩn soạn thảo email chào giá, Phiếu trình duyệt Trưởng phòng",
+                               "decision":  "Hoàn tất tạo hồ sơ . Sẵn sàng bàn giao cho NVKD (Trần Thị Bình).",
+                               "execution_time_ms":  10
+                           }
+                       ],
+        "processed_at":  "2026-11-13 07:35:29"
+    },
+    {
+        "inquiry_id":  "REQ-003",
+        "customer_name":  "Trường Quốc tế Smart Edu",
+        "contact_email":  "admin@smartedu.edu.vn",
+        "assigned_rep":  {
+                             "id":  "SR03",
+                             "name":  "Lê Hoàng Cường",
+                             "email":  "cuong.lh@minhan.com.vn"
+                         },
+        "status":  "Cần bổ sung",
+        "eligible_for_pipeline":  false,
+        "subtotal":  0,
+        "applied_discount_rate":  null,
+        "discount_amount":  0,
+        "final_total":  0,
+        "budget":  60000000,
+        "deadline_days":  null,
+        "max_lead_time_days":  null,
+        "approval_required":  false,
+        "approval_reason":  null,
+        "classification_reasons":  [
+                                       "Thiếu thông tin bắt buộc: Thời hạn triển khai (deadline_days)"
+                                   ],
+        "enriched_items":  [
+
+                           ],
+        "dossier_md":  "# HỒ SƠ CƠ HỘI BÁN HÀNG B2B (OPPORTUNITY DOSSIER)\n- **Mã hồ sơ:** REQ-003\n- **Khách hàng:** Trường Quốc tế Smart Edu\n- **Email liên hệ:** admin@smartedu.edu.vn\n- **Chuyên viên phụ trách:** Lê Hoàng Cường (cuong.lh@minhan.com.vn)\n- **Trạng thái phân loại:** **Cần bổ sung**\n- **Thời gian lập hồ sơ:** 2026-11-13 07:35:29\n\n---\n\n## 1. Kết quả Đánh giá Nghiệp vụ \u0026 Khả năng đáp ứng:\n- **Tổng giá trị niêm yết (Subtotal):** 0 VND\n- **Tỷ lệ chiết khấu áp dụng:** 0% (0 VND)\n- **Tổng giá trị đề xuất sau chiết khấu:** **0 VND**\n- **Ngân sách khách hàng:** 60,000,000 VND\n- **Thời hạn giao hàng cam kết:**  ngày (Khách yêu cầu:  ngày)\n\n## 2. Lý do Phân loại Trạng thái:\n- Thiếu thông tin bắt buộc: Thời hạn triển khai (deadline_days)\r\n\n\n## 3. Danh mục Hạng mục Báo giá (BoQ):\n| Mã SP | Tên Sản Phẩm | SL | Đơn Giá (VND) | Thành Tiền (VND) | Tồn kho ATP | Lead Time |\n| :--- | :--- | :---: | :---: | :---: | :---: | :---: |\n",
+        "draft_email":  "Kính gửi Quý Khách hàng (Trường Quốc tế Smart Edu),\n\nCông ty Minh An trân trọng cảm ơn Quý đơn vị đã liên hệ. Để chúng tôi có thể lập phương án báo giá chính xác và tối ưu nhất, kính đề nghị Quý khách vui lòng làm rõ/bổ sung các thông tin sau:\n- Thời hạn triển khai (deadline_days)\r\n\n\nNgay sau khi nhận đủ thông tin, chuyên viên Minh An sẽ gửi Báo giá chính thức trong vòng 04 giờ làm việc.\n\nTrân trọng cảm ơn,\nLê Hoàng Cường (cuong.lh@minhan.com.vn)\nPhòng Kinh doanh • Công ty Minh An",
+        "approval_ticket":  null,
+        "trace_logs":  [
+                           {
+                               "inquiry_id":  "REQ-003",
+                               "timestamp":  "2026-11-13 07:35:29",
+                               "step_name":  "1. Tiếp nhận \u0026 Phân tích yêu cầu",
+                               "skill_called":  "requirement_analysis",
+                               "tool_called":  "tool_extract_and_validate",
+                               "tool_input":  {
+                                                  "customer_name":  "Trường Quốc tế Smart Edu",
+                                                  "raw_text":  "Trường chúng tôi dự định mua 10 Bộ phát WiFi 6 Cisco Business 150AX và 1 Switch Cisco Catalyst 24-Port PoE. Ngân sách phòng Công nghệ thông tin được duyệt là 60 triệu VND. Xin gửi báo giá chi tiết, thời gian giao hàng chưa xác định cụ thể do phụ thuộc tiến độ cải tạo phòng học."
+                                              },
+                               "tool_output":  {
+                                                   "is_complete":  false,
+                                                   "missing_fields":  [
+                                                                          "Thời hạn triển khai (deadline_days)"
+                                                                      ]
+                                               },
+                               "rules_applied":  "Kiểm tra tính đầy đủ 5 trường: Customer, Email, Items, Budget, Deadline",
+                               "decision":  "Thiếu thông tin: Thời hạn triển khai (deadline_days) -\u003e Kích hoạt nhánh Bổ sung.",
+                               "execution_time_ms":  5
+                           },
+                           {
+                               "inquiry_id":  "REQ-003",
+                               "timestamp":  "2026-11-13 07:35:29",
+                               "step_name":  "2. Thẩm định kho, giá \u0026 Ma trận phê duyệt",
+                               "skill_called":  "opportunity_evaluation",
+                               "tool_called":  "tool_evaluate_feasibility_and_pricing",
+                               "tool_input":  {
+                                                  "deadline":  null,
+                                                  "budget":  60000000,
+                                                  "items":  [
+                                                                {
+                                                                    "product_id":  "PROD-004",
+                                                                    "product_name":  "Bộ phát WiFi 6 Cisco Business 150AX",
+                                                                    "quantity":  10
+                                                                },
+                                                                {
+                                                                    "product_id":  "PROD-003",
+                                                                    "product_name":  "Cisco Catalyst Switch 24-Port",
+                                                                    "quantity":  1
+                                                                }
+                                                            ]
+                                              },
+                               "tool_output":  {
+                                                   "subtotal":  0,
+                                                   "status":  "Cần bổ sung",
+                                                   "lead_time":  null,
+                                                   "final_total":  0
+                                               },
+                               "rules_applied":  "Bảng giá Master, Tồn kho ATP, Chính sách chiết khấu Tier 1-4, Thẩm quyền NVKD \u003c= 10% \u0026 \u003c= 200M",
+                               "decision":  "Xác định trạng thái: Cần bổ sung. Lý do: Thiếu thông tin bắt buộc: Thời hạn triển khai (deadline_days)",
+                               "execution_time_ms":  0
+                           },
+                           {
+                               "inquiry_id":  "REQ-003",
+                               "timestamp":  "2026-11-13 07:35:29",
+                               "step_name":  "3. Tạo Hồ sơ, Dự thảo Email \u0026 Phiếu duyệt",
+                               "skill_called":  "sales_document_generator",
+                               "tool_called":  "tool_generate_dossier_email_ticket",
+                               "tool_input":  {
+                                                  "assigned_rep":  "Lê Hoàng Cường",
+                                                  "status":  "Cần bổ sung"
+                                              },
+                               "tool_output":  {
+                                                   "has_email":  true,
+                                                   "has_dossier":  true,
+                                                   "has_ticket":  false
+                                               },
+                               "rules_applied":  "Mẫu hồ sơ B2B chuẩn, Quy chuẩn soạn thảo email chào giá, Phiếu trình duyệt Trưởng phòng",
+                               "decision":  "Hoàn tất tạo hồ sơ . Sẵn sàng bàn giao cho NVKD (Lê Hoàng Cường).",
+                               "execution_time_ms":  4
+                           }
+                       ],
+        "processed_at":  "2026-11-13 07:35:29"
+    },
+    {
+        "inquiry_id":  "REQ-004",
+        "customer_name":  "Công ty Logistics Việt Vận",
+        "contact_email":  "it.dept@vietvanlogistics.com",
+        "assigned_rep":  {
+                             "id":  "SR06",
+                             "name":  "Đặng Mai Phương",
+                             "email":  "phuong.dm@minhan.com.vn"
+                         },
+        "status":  "Có thể tiếp tục (Đã phê duyệt)",
+        "eligible_for_pipeline":  true,
+        "subtotal":  161000000,
+        "applied_discount_rate":  0.12,
+        "discount_amount":  19320000,
+        "final_total":  141680000,
+        "budget":  150000000,
+        "deadline_days":  10,
+        "max_lead_time_days":  2,
+        "approval_required":  true,
+        "approval_reason":  "Chiết khấu 12% vượt hạn mức NVKD tối đa (10.0%). Cần Trưởng phòng duyệt.",
+        "classification_reasons":  [
+                                       "Chiết khấu 12% vượt hạn mức NVKD tối đa (10.0%). Cần Trưởng phòng duyệt."
+                                   ],
+        "enriched_items":  [
+                               {
+                                   "product_id":  "PROD-001",
+                                   "product_name":  "Laptop Dell Latitude 5540 (Core i7, 16GB, 512GB)",
+                                   "quantity":  5,
+                                   "list_price":  25000000,
+                                   "line_total":  125000000,
+                                   "stock_available":  20,
+                                   "stock_sufficient":  true,
+                                   "lead_time_days":  2
+                               },
+                               {
+                                   "product_id":  "PROD-003",
+                                   "product_name":  "Cisco Catalyst Switch 24-Port Gigabit PoE (C9200L-24P-4G-E)",
+                                   "quantity":  2,
+                                   "list_price":  18000000,
+                                   "line_total":  36000000,
+                                   "stock_available":  15,
+                                   "stock_sufficient":  true,
+                                   "lead_time_days":  2
+                               }
+                           ],
+        "dossier_md":  "# HỒ SƠ CƠ HỘI BÁN HÀNG B2B (OPPORTUNITY DOSSIER)\n- **Mã hồ sơ:** REQ-004\n- **Khách hàng:** Công ty Logistics Việt Vận\n- **Email liên hệ:** it.dept@vietvanlogistics.com\n- **Chuyên viên phụ trách:** Đặng Mai Phương (phuong.dm@minhan.com.vn)\n- **Trạng thái phân loại:** **Chờ duyệt**\n- **Thời gian lập hồ sơ:** 2026-11-13 07:35:30\n\n---\n\n## 1. Kết quả Đánh giá Nghiệp vụ \u0026 Khả năng đáp ứng:\n- **Tổng giá trị niêm yết (Subtotal):** 161,000,000 VND\n- **Tỷ lệ chiết khấu áp dụng:** 12% (19,320,000 VND)\n- **Tổng giá trị đề xuất sau chiết khấu:** **141,680,000 VND**\n- **Ngân sách khách hàng:** 150,000,000 VND\n- **Thời hạn giao hàng cam kết:** 2 ngày (Khách yêu cầu: 10 ngày)\n\n## 2. Lý do Phân loại Trạng thái:\n- Chiết khấu 12% vượt hạn mức NVKD tối đa (10.0%). Cần Trưởng phòng duyệt.\r\n\n\n## 3. Danh mục Hạng mục Báo giá (BoQ):\n| Mã SP | Tên Sản Phẩm | SL | Đơn Giá (VND) | Thành Tiền (VND) | Tồn kho ATP | Lead Time |\n| :--- | :--- | :---: | :---: | :---: | :---: | :---: |\n| PROD-001 | Laptop Dell Latitude 5540 (Core i7, 16GB, 512GB) | 5 | 25,000,000 | 125,000,000 | 20 | 2 ngày |\r\n| PROD-003 | Cisco Catalyst Switch 24-Port Gigabit PoE (C9200L-24P-4G-E) | 2 | 18,000,000 | 36,000,000 | 15 | 2 ngày |\r\n",
+        "draft_email":  "Kính gửi Quý Khách hàng (Công ty Logistics Việt Vận),\n\nCông ty Minh An đã tiếp nhận hồ sơ yêu cầu chào giá của Quý đơn vị. \n\nHồ sơ của Quý khách đang được trình Trưởng phòng Kinh doanh xem xét và phê duyệt chính sách chiết khấu ngoại lệ (12%) theo quy định quản trị doanh nghiệp.\n\nChuyên viên phụ trách (Đặng Mai Phương) sẽ phản hồi kết quả và gửi Hồ sơ Báo giá hoàn chỉnh tới Quý khách trước 17h00 cùng ngày.\n\nTrân trọng cảm ơn sự kiên nhẫn của Quý công ty,\nĐặng Mai Phương - Chuyên viên Kinh doanh B2B\nCông ty Cổ phần Công nghệ Minh An",
+        "approval_ticket":  "PHIẾU CHUYỂN PHÊ DUYỆT NGOẠI LỆ (APPROVAL TICKET)\nMã phiếu: TKT-REQ-004\nThời gian tạo: 2026-11-13 07:35:30\n--------------------------------------------------------------------------------\n1. Thông tin Khách hàng \u0026 Cơ hội:\n- Khách hàng: Công ty Logistics Việt Vận\n- Nhân viên đề xuất: Đặng Mai Phương (phuong.dm@minhan.com.vn)\n- Tổng giá trị đơn hàng sau chiết khấu: 141,680,000 VND\n- Tỷ lệ chiết khấu xin duyệt: 12%\n\n2. Căn cứ và Lý do chuyển duyệt:\n- Chiết khấu 12% vượt hạn mức NVKD tối đa (10.0%). Cần Trưởng phòng duyệt.\r\n\n\n3. Cấp thẩm quyền phê duyệt:\n- Thẩm quyền xét duyệt: Trưởng phòng Kinh doanh (Hoàng Minh Trí - tri.hm@minhan.com.vn)\n- Hạn xử lý SLA: Trong vòng 04 giờ làm việc.\n\n4. Quyết định của Trưởng phòng / Cấp thẩm quyền:\n[  ] ĐỒNG Ý PHÊ DUYỆT (APPROVED)\n[  ] TỪ CHỐI (REJECTED)\n[  ] YÊU CẦU CHỈNH SỬA / ĐÀM PHÁN LẠI (REVISION REQUIRED)\nÝ kiến phê duyệt: .............................................................\nChữ ký số: .....................................................................",
+        "trace_logs":  [
+                           {
+                               "inquiry_id":  "REQ-004",
+                               "timestamp":  "2026-11-13 07:35:30",
+                               "step_name":  "1. Tiếp nhận \u0026 Phân tích yêu cầu",
+                               "skill_called":  "requirement_analysis",
+                               "tool_called":  "tool_extract_and_validate",
+                               "tool_input":  {
+                                                  "customer_name":  "Công ty Logistics Việt Vận",
+                                                  "raw_text":  "Gửi bộ phận kinh doanh Minh An. Chúng tôi cần mua 5 Laptop Dell Latitude 5540 và 2 Switch Cisco Catalyst 24-Port. Ngân sách 150 triệu VND, giao trong 10 ngày. Vì là khách hàng thân thiết, đề nghị chiết khấu đặc biệt 12% cho đơn này."
+                                              },
+                               "tool_output":  {
+                                                   "is_complete":  true,
+                                                   "missing_fields":  [
+
+                                                                      ]
+                                               },
+                               "rules_applied":  "Kiểm tra tính đầy đủ 5 trường: Customer, Email, Items, Budget, Deadline",
+                               "decision":  "Đầy đủ thông tin hợp lệ -\u003e Chuyển sang Thẩm định nghiệp vụ.",
+                               "execution_time_ms":  1
+                           },
+                           {
+                               "inquiry_id":  "REQ-004",
+                               "timestamp":  "2026-11-13 07:35:30",
+                               "step_name":  "2. Thẩm định kho, giá \u0026 Ma trận phê duyệt",
+                               "skill_called":  "opportunity_evaluation",
+                               "tool_called":  "tool_evaluate_feasibility_and_pricing",
+                               "tool_input":  {
+                                                  "deadline":  10,
+                                                  "budget":  150000000,
+                                                  "items":  [
+                                                                {
+                                                                    "product_id":  "PROD-001",
+                                                                    "product_name":  "Laptop Dell Latitude 5540",
+                                                                    "quantity":  5
+                                                                },
+                                                                {
+                                                                    "product_id":  "PROD-003",
+                                                                    "product_name":  "Cisco Catalyst Switch 24-Port",
+                                                                    "quantity":  2
+                                                                }
+                                                            ]
+                                              },
+                               "tool_output":  {
+                                                   "subtotal":  161000000,
+                                                   "status":  "Chờ duyệt",
+                                                   "lead_time":  2,
+                                                   "final_total":  141680000
+                                               },
+                               "rules_applied":  "Bảng giá Master, Tồn kho ATP, Chính sách chiết khấu Tier 1-4, Thẩm quyền NVKD \u003c= 10% \u0026 \u003c= 200M",
+                               "decision":  "Xác định trạng thái: Chờ duyệt. Lý do: Chiết khấu 12% vượt hạn mức NVKD tối đa (10.0%). Cần Trưởng phòng duyệt.",
+                               "execution_time_ms":  9
+                           },
+                           {
+                               "inquiry_id":  "REQ-004",
+                               "timestamp":  "2026-11-13 07:35:30",
+                               "step_name":  "3. Tạo Hồ sơ, Dự thảo Email \u0026 Phiếu duyệt",
+                               "skill_called":  "sales_document_generator",
+                               "tool_called":  "tool_generate_dossier_email_ticket",
+                               "tool_input":  {
+                                                  "assigned_rep":  "Đặng Mai Phương",
+                                                  "status":  "Chờ duyệt"
+                                              },
+                               "tool_output":  {
+                                                   "has_email":  true,
+                                                   "has_dossier":  true,
+                                                   "has_ticket":  true
+                                               },
+                               "rules_applied":  "Mẫu hồ sơ B2B chuẩn, Quy chuẩn soạn thảo email chào giá, Phiếu trình duyệt Trưởng phòng",
+                               "decision":  "Hoàn tất tạo hồ sơ . Sẵn sàng bàn giao cho NVKD (Đặng Mai Phương).",
+                               "execution_time_ms":  8
+                           }
+                       ],
+        "processed_at":  "2026-11-13 07:35:30",
+        "approval_decision":  "Đã duyệt bởi Ho�ng Minh Tr� (Tru?ng ph�ng Kinh doanh) - Ghi chú: D� xem x�t v� d?ng � chi?t kh?u d?c bi?t theo th?m quy?n."
+    },
+    {
+        "inquiry_id":  "REQ-005",
+        "customer_name":  "Ngân hàng Thương mại Cổ phần Đông Á Bank",
+        "contact_email":  "cntt@dongabank.com.vn",
+        "assigned_rep":  {
+                             "id":  "SR01",
+                             "name":  "Nguyễn Văn An",
+                             "email":  "an.nv@minhan.com.vn"
+                         },
+        "status":  "Cần bổ sung (Yêu cầu đàm phán lại)",
+        "eligible_for_pipeline":  true,
+        "subtotal":  275000000,
+        "applied_discount_rate":  0.07,
+        "discount_amount":  19250000,
+        "final_total":  255750000,
+        "budget":  270000000,
+        "deadline_days":  15,
+        "max_lead_time_days":  3,
+        "approval_required":  true,
+        "approval_reason":  "Giá trị đơn hàng (255,750,000 VND) vượt hạn mức phê duyệt NVKD (200,000,000 VND). Cần Trưởng phòng duyệt.",
+        "classification_reasons":  [
+                                       "Giá trị đơn hàng (255,750,000 VND) vượt hạn mức phê duyệt NVKD (200,000,000 VND). Cần Trưởng phòng duyệt."
+                                   ],
+        "enriched_items":  [
+                               {
+                                   "product_id":  "PROD-002",
+                                   "product_name":  "Máy chủ HPE ProLiant DL380 Gen10 (Xeon Silver 4210R, 32GB)",
+                                   "quantity":  3,
+                                   "list_price":  85000000,
+                                   "line_total":  255000000,
+                                   "stock_available":  5,
+                                   "stock_sufficient":  true,
+                                   "lead_time_days":  3
+                               },
+                               {
+                                   "product_id":  "PROD-005",
+                                   "product_name":  "Dịch vụ Triển khai Cài đặt \u0026 Cấu hình Hệ thống (Gói Doanh nghiệp)",
+                                   "quantity":  2,
+                                   "list_price":  10000000,
+                                   "line_total":  20000000,
+                                   "stock_available":  999,
+                                   "stock_sufficient":  true,
+                                   "lead_time_days":  3
+                               }
+                           ],
+        "dossier_md":  "# HỒ SƠ CƠ HỘI BÁN HÀNG B2B (OPPORTUNITY DOSSIER)\n- **Mã hồ sơ:** REQ-005\n- **Khách hàng:** Ngân hàng Thương mại Cổ phần Đông Á Bank\n- **Email liên hệ:** cntt@dongabank.com.vn\n- **Chuyên viên phụ trách:** Nguyễn Văn An (an.nv@minhan.com.vn)\n- **Trạng thái phân loại:** **Chờ duyệt**\n- **Thời gian lập hồ sơ:** 2026-11-13 07:35:30\n\n---\n\n## 1. Kết quả Đánh giá Nghiệp vụ \u0026 Khả năng đáp ứng:\n- **Tổng giá trị niêm yết (Subtotal):** 275,000,000 VND\n- **Tỷ lệ chiết khấu áp dụng:** 7% (19,250,000 VND)\n- **Tổng giá trị đề xuất sau chiết khấu:** **255,750,000 VND**\n- **Ngân sách khách hàng:** 270,000,000 VND\n- **Thời hạn giao hàng cam kết:** 3 ngày (Khách yêu cầu: 15 ngày)\n\n## 2. Lý do Phân loại Trạng thái:\n- Giá trị đơn hàng (255,750,000 VND) vượt hạn mức phê duyệt NVKD (200,000,000 VND). Cần Trưởng phòng duyệt.\r\n\n\n## 3. Danh mục Hạng mục Báo giá (BoQ):\n| Mã SP | Tên Sản Phẩm | SL | Đơn Giá (VND) | Thành Tiền (VND) | Tồn kho ATP | Lead Time |\n| :--- | :--- | :---: | :---: | :---: | :---: | :---: |\n| PROD-002 | Máy chủ HPE ProLiant DL380 Gen10 (Xeon Silver 4210R, 32GB) | 3 | 85,000,000 | 255,000,000 | 5 | 3 ngày |\r\n| PROD-005 | Dịch vụ Triển khai Cài đặt \u0026 Cấu hình Hệ thống (Gói Doanh nghiệp) | 2 | 10,000,000 | 20,000,000 | 999 | 3 ngày |\r\n",
+        "draft_email":  "Kính gửi Quý Khách hàng (Ngân hàng Thương mại Cổ phần Đông Á Bank),\n\nCông ty Minh An đã tiếp nhận hồ sơ yêu cầu chào giá của Quý đơn vị. \n\nHồ sơ của Quý khách đang được trình Trưởng phòng Kinh doanh xem xét và phê duyệt chính sách chiết khấu ngoại lệ (7%) theo quy định quản trị doanh nghiệp.\n\nChuyên viên phụ trách (Nguyễn Văn An) sẽ phản hồi kết quả và gửi Hồ sơ Báo giá hoàn chỉnh tới Quý khách trước 17h00 cùng ngày.\n\nTrân trọng cảm ơn sự kiên nhẫn của Quý công ty,\nNguyễn Văn An - Chuyên viên Kinh doanh B2B\nCông ty Cổ phần Công nghệ Minh An",
+        "approval_ticket":  "PHIẾU CHUYỂN PHÊ DUYỆT NGOẠI LỆ (APPROVAL TICKET)\nMã phiếu: TKT-REQ-005\nThời gian tạo: 2026-11-13 07:35:30\n--------------------------------------------------------------------------------\n1. Thông tin Khách hàng \u0026 Cơ hội:\n- Khách hàng: Ngân hàng Thương mại Cổ phần Đông Á Bank\n- Nhân viên đề xuất: Nguyễn Văn An (an.nv@minhan.com.vn)\n- Tổng giá trị đơn hàng sau chiết khấu: 255,750,000 VND\n- Tỷ lệ chiết khấu xin duyệt: 7%\n\n2. Căn cứ và Lý do chuyển duyệt:\n- Giá trị đơn hàng (255,750,000 VND) vượt hạn mức phê duyệt NVKD (200,000,000 VND). Cần Trưởng phòng duyệt.\r\n\n\n3. Cấp thẩm quyền phê duyệt:\n- Thẩm quyền xét duyệt: Trưởng phòng Kinh doanh (Hoàng Minh Trí - tri.hm@minhan.com.vn)\n- Hạn xử lý SLA: Trong vòng 04 giờ làm việc.\n\n4. Quyết định của Trưởng phòng / Cấp thẩm quyền:\n[  ] ĐỒNG Ý PHÊ DUYỆT (APPROVED)\n[  ] TỪ CHỐI (REJECTED)\n[  ] YÊU CẦU CHỈNH SỬA / ĐÀM PHÁN LẠI (REVISION REQUIRED)\nÝ kiến phê duyệt: .............................................................\nChữ ký số: .....................................................................",
+        "trace_logs":  [
+                           {
+                               "inquiry_id":  "REQ-005",
+                               "timestamp":  "2026-11-13 07:35:30",
+                               "step_name":  "1. Tiếp nhận \u0026 Phân tích yêu cầu",
+                               "skill_called":  "requirement_analysis",
+                               "tool_called":  "tool_extract_and_validate",
+                               "tool_input":  {
+                                                  "customer_name":  "Ngân hàng Thương mại Cổ phần Đông Á Bank",
+                                                  "raw_text":  "Phòng Hạ tầng Đông Á Bank yêu cầu báo giá gấp 3 Máy chủ HPE ProLiant DL380 Gen10 kèm 2 Gói Dịch vụ Cài đặt Cấu hình Doanh nghiệp. Ngân sách phê duyệt 270 triệu VND. Đề nghị chiết khấu 7%, bàn giao lắp đặt trong 15 ngày làm việc."
+                                              },
+                               "tool_output":  {
+                                                   "is_complete":  true,
+                                                   "missing_fields":  [
+
+                                                                      ]
+                                               },
+                               "rules_applied":  "Kiểm tra tính đầy đủ 5 trường: Customer, Email, Items, Budget, Deadline",
+                               "decision":  "Đầy đủ thông tin hợp lệ -\u003e Chuyển sang Thẩm định nghiệp vụ.",
+                               "execution_time_ms":  1
+                           },
+                           {
+                               "inquiry_id":  "REQ-005",
+                               "timestamp":  "2026-11-13 07:35:30",
+                               "step_name":  "2. Thẩm định kho, giá \u0026 Ma trận phê duyệt",
+                               "skill_called":  "opportunity_evaluation",
+                               "tool_called":  "tool_evaluate_feasibility_and_pricing",
+                               "tool_input":  {
+                                                  "deadline":  15,
+                                                  "budget":  270000000,
+                                                  "items":  [
+                                                                {
+                                                                    "product_id":  "PROD-002",
+                                                                    "product_name":  "Máy chủ HPE ProLiant DL380 Gen10",
+                                                                    "quantity":  3
+                                                                },
+                                                                {
+                                                                    "product_id":  "PROD-005",
+                                                                    "product_name":  "Dịch vụ Triển khai Cài đặt",
+                                                                    "quantity":  2
+                                                                }
+                                                            ]
+                                              },
+                               "tool_output":  {
+                                                   "subtotal":  275000000,
+                                                   "status":  "Chờ duyệt",
+                                                   "lead_time":  3,
+                                                   "final_total":  255750000
+                                               },
+                               "rules_applied":  "Bảng giá Master, Tồn kho ATP, Chính sách chiết khấu Tier 1-4, Thẩm quyền NVKD \u003c= 10% \u0026 \u003c= 200M",
+                               "decision":  "Xác định trạng thái: Chờ duyệt. Lý do: Giá trị đơn hàng (255,750,000 VND) vượt hạn mức phê duyệt NVKD (200,000,000 VND). Cần Trưởng phòng duyệt.",
+                               "execution_time_ms":  6
+                           },
+                           {
+                               "inquiry_id":  "REQ-005",
+                               "timestamp":  "2026-11-13 07:35:30",
+                               "step_name":  "3. Tạo Hồ sơ, Dự thảo Email \u0026 Phiếu duyệt",
+                               "skill_called":  "sales_document_generator",
+                               "tool_called":  "tool_generate_dossier_email_ticket",
+                               "tool_input":  {
+                                                  "assigned_rep":  "Nguyễn Văn An",
+                                                  "status":  "Chờ duyệt"
+                                              },
+                               "tool_output":  {
+                                                   "has_email":  true,
+                                                   "has_dossier":  true,
+                                                   "has_ticket":  true
+                                               },
+                               "rules_applied":  "Mẫu hồ sơ B2B chuẩn, Quy chuẩn soạn thảo email chào giá, Phiếu trình duyệt Trưởng phòng",
+                               "decision":  "Hoàn tất tạo hồ sơ . Sẵn sàng bàn giao cho NVKD (Nguyễn Văn An).",
+                               "execution_time_ms":  5
+                           }
+                       ],
+        "processed_at":  "2026-11-13 07:35:30",
+        "approval_decision":  "Yêu cầu chỉnh sửa bởi Ho�ng Minh Tr� (Tru?ng ph�ng Kinh doanh): Y�u c?u d�m ph�n gi?m chi?t kh?u xu?ng t?i da 8%."
+    },
+    {
+        "inquiry_id":  "REQ-006",
+        "customer_name":  "Công ty CP Bán lẻ Thời trang VinaFashion",
+        "contact_email":  "tech@vinafashion.vn",
+        "assigned_rep":  {
+                             "id":  "SR04",
+                             "name":  "Phạm Thu Dung",
+                             "email":  "dung.pt@minhan.com.vn"
+                         },
+        "status":  "Chưa đáp ứng",
+        "eligible_for_pipeline":  false,
+        "subtotal":  625000000,
+        "applied_discount_rate":  0.08,
+        "discount_amount":  50000000,
+        "final_total":  575000000,
+        "budget":  650000000,
+        "deadline_days":  4,
+        "max_lead_time_days":  14,
+        "approval_required":  true,
+        "approval_reason":  "Kho không đủ hàng sẵn và thời gian nhập hàng (14 ngày) vượt thời hạn yêu cầu của khách (4 ngày).",
+        "classification_reasons":  [
+                                       "Kho không đủ hàng sẵn và thời gian nhập hàng (14 ngày) vượt thời hạn yêu cầu của khách (4 ngày)."
+                                   ],
+        "enriched_items":  [
+                               {
+                                   "product_id":  "PROD-001",
+                                   "product_name":  "Laptop Dell Latitude 5540 (Core i7, 16GB, 512GB)",
+                                   "quantity":  25,
+                                   "list_price":  25000000,
+                                   "line_total":  625000000,
+                                   "stock_available":  20,
+                                   "stock_sufficient":  false,
+                                   "lead_time_days":  14
+                               }
+                           ],
+        "dossier_md":  "# HỒ SƠ CƠ HỘI BÁN HÀNG B2B (OPPORTUNITY DOSSIER)\n- **Mã hồ sơ:** REQ-006\n- **Khách hàng:** Công ty CP Bán lẻ Thời trang VinaFashion\n- **Email liên hệ:** tech@vinafashion.vn\n- **Chuyên viên phụ trách:** Phạm Thu Dung (dung.pt@minhan.com.vn)\n- **Trạng thái phân loại:** **Chưa đáp ứng**\n- **Thời gian lập hồ sơ:** 2026-11-13 07:35:30\n\n---\n\n## 1. Kết quả Đánh giá Nghiệp vụ \u0026 Khả năng đáp ứng:\n- **Tổng giá trị niêm yết (Subtotal):** 625,000,000 VND\n- **Tỷ lệ chiết khấu áp dụng:** 8% (50,000,000 VND)\n- **Tổng giá trị đề xuất sau chiết khấu:** **575,000,000 VND**\n- **Ngân sách khách hàng:** 650,000,000 VND\n- **Thời hạn giao hàng cam kết:** 14 ngày (Khách yêu cầu: 4 ngày)\n\n## 2. Lý do Phân loại Trạng thái:\n- Kho không đủ hàng sẵn và thời gian nhập hàng (14 ngày) vượt thời hạn yêu cầu của khách (4 ngày).\r\n\n\n## 3. Danh mục Hạng mục Báo giá (BoQ):\n| Mã SP | Tên Sản Phẩm | SL | Đơn Giá (VND) | Thành Tiền (VND) | Tồn kho ATP | Lead Time |\n| :--- | :--- | :---: | :---: | :---: | :---: | :---: |\n| PROD-001 | Laptop Dell Latitude 5540 (Core i7, 16GB, 512GB) | 25 | 25,000,000 | 625,000,000 | 20 | 14 ngày |\r\n",
+        "draft_email":  "Kính gửi Quý Khách hàng (Công ty CP Bán lẻ Thời trang VinaFashion),\n\nCông ty Minh An trân trọng cảm ơn Quý đơn vị đã gửi yêu cầu. Sau khi đối chiếu dữ liệu kho vận và năng lực đáp ứng, chúng tôi rất tiếc phải thông báo hiện tại Minh An chưa thể đáp ứng đầy đủ yêu cầu theo các điều kiện sau:\n- Kho không đủ hàng sẵn và thời gian nhập hàng (14 ngày) vượt thời hạn yêu cầu của khách (4 ngày).\r\n\n\nChuyên viên Minh An xin phép được liên hệ trực tiếp để tư vấn các phương án sản phẩm tương đương hoặc điều chỉnh tiến độ giao hàng phù hợp hơn với Quý đơn vị.\n\nTrân trọng cảm ơn,\nPhạm Thu Dung (dung.pt@minhan.com.vn)\nCông ty Cổ phần Công nghệ Minh An",
+        "approval_ticket":  "PHIẾU CHUYỂN PHÊ DUYỆT NGOẠI LỆ (APPROVAL TICKET)\nMã phiếu: TKT-REQ-006\nThời gian tạo: 2026-11-13 07:35:30\n--------------------------------------------------------------------------------\n1. Thông tin Khách hàng \u0026 Cơ hội:\n- Khách hàng: Công ty CP Bán lẻ Thời trang VinaFashion\n- Nhân viên đề xuất: Phạm Thu Dung (dung.pt@minhan.com.vn)\n- Tổng giá trị đơn hàng sau chiết khấu: 575,000,000 VND\n- Tỷ lệ chiết khấu xin duyệt: 8%\n\n2. Căn cứ và Lý do chuyển duyệt:\n- Kho không đủ hàng sẵn và thời gian nhập hàng (14 ngày) vượt thời hạn yêu cầu của khách (4 ngày).\r\n\n\n3. Cấp thẩm quyền phê duyệt:\n- Thẩm quyền xét duyệt: Trưởng phòng Kinh doanh (Hoàng Minh Trí - tri.hm@minhan.com.vn)\n- Hạn xử lý SLA: Trong vòng 04 giờ làm việc.\n\n4. Quyết định của Trưởng phòng / Cấp thẩm quyền:\n[  ] ĐỒNG Ý PHÊ DUYỆT (APPROVED)\n[  ] TỪ CHỐI (REJECTED)\n[  ] YÊU CẦU CHỈNH SỬA / ĐÀM PHÁN LẠI (REVISION REQUIRED)\nÝ kiến phê duyệt: .............................................................\nChữ ký số: .....................................................................",
+        "trace_logs":  [
+                           {
+                               "inquiry_id":  "REQ-006",
+                               "timestamp":  "2026-11-13 07:35:30",
+                               "step_name":  "1. Tiếp nhận \u0026 Phân tích yêu cầu",
+                               "skill_called":  "requirement_analysis",
+                               "tool_called":  "tool_extract_and_validate",
+                               "tool_input":  {
+                                                  "customer_name":  "Công ty CP Bán lẻ Thời trang VinaFashion",
+                                                  "raw_text":  "Chúng tôi cần mở chuỗi 15 chi nhánh mới, cần gấp 25 Laptop Dell Latitude 5540. Ngân sách 650 triệu VND, chiết khấu 8%. Yêu cầu bắt buộc giao toàn bộ máy trong 4 ngày làm việc tới để kịp khai trương đồng loạt."
+                                              },
+                               "tool_output":  {
+                                                   "is_complete":  true,
+                                                   "missing_fields":  [
+
+                                                                      ]
+                                               },
+                               "rules_applied":  "Kiểm tra tính đầy đủ 5 trường: Customer, Email, Items, Budget, Deadline",
+                               "decision":  "Đầy đủ thông tin hợp lệ -\u003e Chuyển sang Thẩm định nghiệp vụ.",
+                               "execution_time_ms":  1
+                           },
+                           {
+                               "inquiry_id":  "REQ-006",
+                               "timestamp":  "2026-11-13 07:35:30",
+                               "step_name":  "2. Thẩm định kho, giá \u0026 Ma trận phê duyệt",
+                               "skill_called":  "opportunity_evaluation",
+                               "tool_called":  "tool_evaluate_feasibility_and_pricing",
+                               "tool_input":  {
+                                                  "deadline":  4,
+                                                  "budget":  650000000,
+                                                  "items":  [
+                                                                {
+                                                                    "product_id":  "PROD-001",
+                                                                    "product_name":  "Laptop Dell Latitude 5540",
+                                                                    "quantity":  25
+                                                                }
+                                                            ]
+                                              },
+                               "tool_output":  {
+                                                   "subtotal":  625000000,
+                                                   "status":  "Chưa đáp ứng",
+                                                   "lead_time":  14,
+                                                   "final_total":  575000000
+                                               },
+                               "rules_applied":  "Bảng giá Master, Tồn kho ATP, Chính sách chiết khấu Tier 1-4, Thẩm quyền NVKD \u003c= 10% \u0026 \u003c= 200M",
+                               "decision":  "Xác định trạng thái: Chưa đáp ứng. Lý do: Kho không đủ hàng sẵn và thời gian nhập hàng (14 ngày) vượt thời hạn yêu cầu của khách (4 ngày).",
+                               "execution_time_ms":  5
+                           },
+                           {
+                               "inquiry_id":  "REQ-006",
+                               "timestamp":  "2026-11-13 07:35:30",
+                               "step_name":  "3. Tạo Hồ sơ, Dự thảo Email \u0026 Phiếu duyệt",
+                               "skill_called":  "sales_document_generator",
+                               "tool_called":  "tool_generate_dossier_email_ticket",
+                               "tool_input":  {
+                                                  "assigned_rep":  "Phạm Thu Dung",
+                                                  "status":  "Chưa đáp ứng"
+                                              },
+                               "tool_output":  {
+                                                   "has_email":  true,
+                                                   "has_dossier":  true,
+                                                   "has_ticket":  true
+                                               },
+                               "rules_applied":  "Mẫu hồ sơ B2B chuẩn, Quy chuẩn soạn thảo email chào giá, Phiếu trình duyệt Trưởng phòng",
+                               "decision":  "Hoàn tất tạo hồ sơ . Sẵn sàng bàn giao cho NVKD (Phạm Thu Dung).",
+                               "execution_time_ms":  7
+                           }
+                       ],
+        "processed_at":  "2026-11-13 07:35:30"
+    },
+    {
+        "inquiry_id":  "REQ-007",
+        "customer_name":  "Startup Sáng tạo EduBot",
+        "contact_email":  "founder@edubot.io",
+        "assigned_rep":  {
+                             "id":  "SR05",
+                             "name":  "Vũ Minh Đức",
+                             "email":  "duc.vm@minhan.com.vn"
+                         },
+        "status":  "Chưa đáp ứng",
+        "eligible_for_pipeline":  false,
+        "subtotal":  103000000,
+        "applied_discount_rate":  0.15,
+        "discount_amount":  15450000,
+        "final_total":  87550000,
+        "budget":  70000000,
+        "deadline_days":  7,
+        "max_lead_time_days":  3,
+        "approval_required":  true,
+        "approval_reason":  "Ngân sách của khách (70,000,000 VND) thấp hơn giá chào sau chiết khấu (87,550,000 VND, thiếu 17,550,000 VND).",
+        "classification_reasons":  [
+                                       "Ngân sách của khách (70,000,000 VND) thấp hơn giá chào sau chiết khấu (87,550,000 VND, thiếu 17,550,000 VND)."
+                                   ],
+        "enriched_items":  [
+                               {
+                                   "product_id":  "PROD-002",
+                                   "product_name":  "Máy chủ HPE ProLiant DL380 Gen10 (Xeon Silver 4210R, 32GB)",
+                                   "quantity":  1,
+                                   "list_price":  85000000,
+                                   "line_total":  85000000,
+                                   "stock_available":  5,
+                                   "stock_sufficient":  true,
+                                   "lead_time_days":  3
+                               },
+                               {
+                                   "product_id":  "PROD-003",
+                                   "product_name":  "Cisco Catalyst Switch 24-Port Gigabit PoE (C9200L-24P-4G-E)",
+                                   "quantity":  1,
+                                   "list_price":  18000000,
+                                   "line_total":  18000000,
+                                   "stock_available":  15,
+                                   "stock_sufficient":  true,
+                                   "lead_time_days":  2
+                               }
+                           ],
+        "dossier_md":  "# HỒ SƠ CƠ HỘI BÁN HÀNG B2B (OPPORTUNITY DOSSIER)\n- **Mã hồ sơ:** REQ-007\n- **Khách hàng:** Startup Sáng tạo EduBot\n- **Email liên hệ:** founder@edubot.io\n- **Chuyên viên phụ trách:** Vũ Minh Đức (duc.vm@minhan.com.vn)\n- **Trạng thái phân loại:** **Chưa đáp ứng**\n- **Thời gian lập hồ sơ:** 2026-11-13 07:35:30\n\n---\n\n## 1. Kết quả Đánh giá Nghiệp vụ \u0026 Khả năng đáp ứng:\n- **Tổng giá trị niêm yết (Subtotal):** 103,000,000 VND\n- **Tỷ lệ chiết khấu áp dụng:** 15% (15,450,000 VND)\n- **Tổng giá trị đề xuất sau chiết khấu:** **87,550,000 VND**\n- **Ngân sách khách hàng:** 70,000,000 VND\n- **Thời hạn giao hàng cam kết:** 3 ngày (Khách yêu cầu: 7 ngày)\n\n## 2. Lý do Phân loại Trạng thái:\n- Ngân sách của khách (70,000,000 VND) thấp hơn giá chào sau chiết khấu (87,550,000 VND, thiếu 17,550,000 VND).\r\n\n\n## 3. Danh mục Hạng mục Báo giá (BoQ):\n| Mã SP | Tên Sản Phẩm | SL | Đơn Giá (VND) | Thành Tiền (VND) | Tồn kho ATP | Lead Time |\n| :--- | :--- | :---: | :---: | :---: | :---: | :---: |\n| PROD-002 | Máy chủ HPE ProLiant DL380 Gen10 (Xeon Silver 4210R, 32GB) | 1 | 85,000,000 | 85,000,000 | 5 | 3 ngày |\r\n| PROD-003 | Cisco Catalyst Switch 24-Port Gigabit PoE (C9200L-24P-4G-E) | 1 | 18,000,000 | 18,000,000 | 15 | 2 ngày |\r\n",
+        "draft_email":  "Kính gửi Quý Khách hàng (Startup Sáng tạo EduBot),\n\nCông ty Minh An trân trọng cảm ơn Quý đơn vị đã gửi yêu cầu. Sau khi đối chiếu dữ liệu kho vận và năng lực đáp ứng, chúng tôi rất tiếc phải thông báo hiện tại Minh An chưa thể đáp ứng đầy đủ yêu cầu theo các điều kiện sau:\n- Ngân sách của khách (70,000,000 VND) thấp hơn giá chào sau chiết khấu (87,550,000 VND, thiếu 17,550,000 VND).\r\n\n\nChuyên viên Minh An xin phép được liên hệ trực tiếp để tư vấn các phương án sản phẩm tương đương hoặc điều chỉnh tiến độ giao hàng phù hợp hơn với Quý đơn vị.\n\nTrân trọng cảm ơn,\nVũ Minh Đức (duc.vm@minhan.com.vn)\nCông ty Cổ phần Công nghệ Minh An",
+        "approval_ticket":  "PHIẾU CHUYỂN PHÊ DUYỆT NGOẠI LỆ (APPROVAL TICKET)\nMã phiếu: TKT-REQ-007\nThời gian tạo: 2026-11-13 07:35:30\n--------------------------------------------------------------------------------\n1. Thông tin Khách hàng \u0026 Cơ hội:\n- Khách hàng: Startup Sáng tạo EduBot\n- Nhân viên đề xuất: Vũ Minh Đức (duc.vm@minhan.com.vn)\n- Tổng giá trị đơn hàng sau chiết khấu: 87,550,000 VND\n- Tỷ lệ chiết khấu xin duyệt: 15%\n\n2. Căn cứ và Lý do chuyển duyệt:\n- Ngân sách của khách (70,000,000 VND) thấp hơn giá chào sau chiết khấu (87,550,000 VND, thiếu 17,550,000 VND).\r\n\n\n3. Cấp thẩm quyền phê duyệt:\n- Thẩm quyền xét duyệt: Trưởng phòng Kinh doanh (Hoàng Minh Trí - tri.hm@minhan.com.vn)\n- Hạn xử lý SLA: Trong vòng 04 giờ làm việc.\n\n4. Quyết định của Trưởng phòng / Cấp thẩm quyền:\n[  ] ĐỒNG Ý PHÊ DUYỆT (APPROVED)\n[  ] TỪ CHỐI (REJECTED)\n[  ] YÊU CẦU CHỈNH SỬA / ĐÀM PHÁN LẠI (REVISION REQUIRED)\nÝ kiến phê duyệt: .............................................................\nChữ ký số: .....................................................................",
+        "trace_logs":  [
+                           {
+                               "inquiry_id":  "REQ-007",
+                               "timestamp":  "2026-11-13 07:35:30",
+                               "step_name":  "1. Tiếp nhận \u0026 Phân tích yêu cầu",
+                               "skill_called":  "requirement_analysis",
+                               "tool_called":  "tool_extract_and_validate",
+                               "tool_input":  {
+                                                  "customer_name":  "Startup Sáng tạo EduBot",
+                                                  "raw_text":  "Chúng tôi cần 1 Máy chủ HPE ProLiant DL380 Gen10 và 1 Switch Cisco Catalyst 24-Port. Tuy nhiên kinh phí của dự án khởi nghiệp chỉ có đúng 70 triệu VND tối đa. Nếu công ty hỗ trợ được trong tuần này thì phản hồi sớm."
+                                              },
+                               "tool_output":  {
+                                                   "is_complete":  true,
+                                                   "missing_fields":  [
+
+                                                                      ]
+                                               },
+                               "rules_applied":  "Kiểm tra tính đầy đủ 5 trường: Customer, Email, Items, Budget, Deadline",
+                               "decision":  "Đầy đủ thông tin hợp lệ -\u003e Chuyển sang Thẩm định nghiệp vụ.",
+                               "execution_time_ms":  0
+                           },
+                           {
+                               "inquiry_id":  "REQ-007",
+                               "timestamp":  "2026-11-13 07:35:30",
+                               "step_name":  "2. Thẩm định kho, giá \u0026 Ma trận phê duyệt",
+                               "skill_called":  "opportunity_evaluation",
+                               "tool_called":  "tool_evaluate_feasibility_and_pricing",
+                               "tool_input":  {
+                                                  "deadline":  7,
+                                                  "budget":  70000000,
+                                                  "items":  [
+                                                                {
+                                                                    "product_id":  "PROD-002",
+                                                                    "product_name":  "Máy chủ HPE ProLiant DL380 Gen10",
+                                                                    "quantity":  1
+                                                                },
+                                                                {
+                                                                    "product_id":  "PROD-003",
+                                                                    "product_name":  "Cisco Catalyst Switch 24-Port",
+                                                                    "quantity":  1
+                                                                }
+                                                            ]
+                                              },
+                               "tool_output":  {
+                                                   "subtotal":  103000000,
+                                                   "status":  "Chưa đáp ứng",
+                                                   "lead_time":  3,
+                                                   "final_total":  87550000
+                                               },
+                               "rules_applied":  "Bảng giá Master, Tồn kho ATP, Chính sách chiết khấu Tier 1-4, Thẩm quyền NVKD \u003c= 10% \u0026 \u003c= 200M",
+                               "decision":  "Xác định trạng thái: Chưa đáp ứng. Lý do: Ngân sách của khách (70,000,000 VND) thấp hơn giá chào sau chiết khấu (87,550,000 VND, thiếu 17,550,000 VND).",
+                               "execution_time_ms":  3
+                           },
+                           {
+                               "inquiry_id":  "REQ-007",
+                               "timestamp":  "2026-11-13 07:35:30",
+                               "step_name":  "3. Tạo Hồ sơ, Dự thảo Email \u0026 Phiếu duyệt",
+                               "skill_called":  "sales_document_generator",
+                               "tool_called":  "tool_generate_dossier_email_ticket",
+                               "tool_input":  {
+                                                  "assigned_rep":  "Vũ Minh Đức",
+                                                  "status":  "Chưa đáp ứng"
+                                              },
+                               "tool_output":  {
+                                                   "has_email":  true,
+                                                   "has_dossier":  true,
+                                                   "has_ticket":  true
+                                               },
+                               "rules_applied":  "Mẫu hồ sơ B2B chuẩn, Quy chuẩn soạn thảo email chào giá, Phiếu trình duyệt Trưởng phòng",
+                               "decision":  "Hoàn tất tạo hồ sơ . Sẵn sàng bàn giao cho NVKD (Vũ Minh Đức).",
+                               "execution_time_ms":  3
+                           }
+                       ],
+        "processed_at":  "2026-11-13 07:35:30"
+    },
+    {
+        "inquiry_id":  "REQ-20261112-212840-0",
+        "customer_name":  "T9",
+        "contact_email":  "10",
+        "assigned_rep":  {
+                             "id":  "SR06",
+                             "name":  "Đặng Mai Phương",
+                             "email":  "phuong.dm@minhan.com.vn"
+                         },
+        "status":  "Cần bổ sung",
+        "eligible_for_pipeline":  false,
+        "subtotal":  0,
+        "applied_discount_rate":  null,
+        "discount_amount":  0,
+        "final_total":  0,
+        "budget":  null,
+        "deadline_days":  null,
+        "max_lead_time_days":  null,
+        "approval_required":  false,
+        "approval_reason":  null,
+        "classification_reasons":  [
+                                       "Thiếu thông tin bắt buộc: Danh mục sản phẩm (items), Ngân sách dự kiến (budget), Thời hạn triển khai (deadline_days)"
+                                   ],
+        "enriched_items":  [
+
+                           ],
+        "dossier_md":  "# HỒ SƠ CƠ HỘI BÁN HÀNG B2B (OPPORTUNITY DOSSIER)\n- **Mã hồ sơ:** REQ-20261112-212840-0\n- **Khách hàng:** T9\n- **Email liên hệ:** 10\n- **Chuyên viên phụ trách:** Đặng Mai Phương (phuong.dm@minhan.com.vn)\n- **Trạng thái phân loại:** **Cần bổ sung**\n- **Thời gian lập hồ sơ:** 2026-11-13 07:35:30\n\n---\n\n## 1. Kết quả Đánh giá Nghiệp vụ \u0026 Khả năng đáp ứng:\n- **Tổng giá trị niêm yết (Subtotal):** 0 VND\n- **Tỷ lệ chiết khấu áp dụng:** 0% (0 VND)\n- **Tổng giá trị đề xuất sau chiết khấu:** **0 VND**\n- **Ngân sách khách hàng:** Chưa cung cấp\n- **Thời hạn giao hàng cam kết:**  ngày (Khách yêu cầu:  ngày)\n\n## 2. Lý do Phân loại Trạng thái:\n- Thiếu thông tin bắt buộc: Danh mục sản phẩm (items), Ngân sách dự kiến (budget), Thời hạn triển khai (deadline_days)\r\n\n\n## 3. Danh mục Hạng mục Báo giá (BoQ):\n| Mã SP | Tên Sản Phẩm | SL | Đơn Giá (VND) | Thành Tiền (VND) | Tồn kho ATP | Lead Time |\n| :--- | :--- | :---: | :---: | :---: | :---: | :---: |\n",
+        "draft_email":  "Kính gửi Quý Khách hàng (T9),\n\nCông ty Minh An trân trọng cảm ơn Quý đơn vị đã liên hệ. Để chúng tôi có thể lập phương án báo giá chính xác và tối ưu nhất, kính đề nghị Quý khách vui lòng làm rõ/bổ sung các thông tin sau:\n- Danh mục sản phẩm (items)\r\n- Ngân sách dự kiến (budget)\r\n- Thời hạn triển khai (deadline_days)\r\n\n\nNgay sau khi nhận đủ thông tin, chuyên viên Minh An sẽ gửi Báo giá chính thức trong vòng 04 giờ làm việc.\n\nTrân trọng cảm ơn,\nĐặng Mai Phương (phuong.dm@minhan.com.vn)\nPhòng Kinh doanh • Công ty Minh An",
+        "approval_ticket":  null,
+        "trace_logs":  [
+                           {
+                               "inquiry_id":  "REQ-20261112-212840-0",
+                               "timestamp":  "2026-11-13 07:35:30",
+                               "step_name":  "1. Tiếp nhận \u0026 Phân tích yêu cầu",
+                               "skill_called":  "requirement_analysis",
+                               "tool_called":  "tool_extract_and_validate",
+                               "tool_input":  {
+                                                  "customer_name":  "T9",
+                                                  "raw_text":  "T9 10 45 450 80% 5.0 0.0111"
+                                              },
+                               "tool_output":  {
+                                                   "is_complete":  false,
+                                                   "missing_fields":  [
+                                                                          "Danh mục sản phẩm (items)",
+                                                                          "Ngân sách dự kiến (budget)",
+                                                                          "Thời hạn triển khai (deadline_days)"
+                                                                      ]
+                                               },
+                               "rules_applied":  "Kiểm tra tính đầy đủ 5 trường: Customer, Email, Items, Budget, Deadline",
+                               "decision":  "Thiếu thông tin: Danh mục sản phẩm (items), Ngân sách dự kiến (budget), Thời hạn triển khai (deadline_days) -\u003e Kích hoạt nhánh Bổ sung.",
+                               "execution_time_ms":  6
+                           },
+                           {
+                               "inquiry_id":  "REQ-20261112-212840-0",
+                               "timestamp":  "2026-11-13 07:35:30",
+                               "step_name":  "2. Thẩm định kho, giá \u0026 Ma trận phê duyệt",
+                               "skill_called":  "opportunity_evaluation",
+                               "tool_called":  "tool_evaluate_feasibility_and_pricing",
+                               "tool_input":  {
+                                                  "deadline":  null,
+                                                  "budget":  null,
+                                                  "items":  [
+
+                                                            ]
+                                              },
+                               "tool_output":  {
+                                                   "subtotal":  0,
+                                                   "status":  "Cần bổ sung",
+                                                   "lead_time":  null,
+                                                   "final_total":  0
+                                               },
+                               "rules_applied":  "Bảng giá Master, Tồn kho ATP, Chính sách chiết khấu Tier 1-4, Thẩm quyền NVKD \u003c= 10% \u0026 \u003c= 200M",
+                               "decision":  "Xác định trạng thái: Cần bổ sung. Lý do: Thiếu thông tin bắt buộc: Danh mục sản phẩm (items), Ngân sách dự kiến (budget), Thời hạn triển khai (deadline_days)",
+                               "execution_time_ms":  1
+                           },
+                           {
+                               "inquiry_id":  "REQ-20261112-212840-0",
+                               "timestamp":  "2026-11-13 07:35:30",
+                               "step_name":  "3. Tạo Hồ sơ, Dự thảo Email \u0026 Phiếu duyệt",
+                               "skill_called":  "sales_document_generator",
+                               "tool_called":  "tool_generate_dossier_email_ticket",
+                               "tool_input":  {
+                                                  "assigned_rep":  "Đặng Mai Phương",
+                                                  "status":  "Cần bổ sung"
+                                              },
+                               "tool_output":  {
+                                                   "has_email":  true,
+                                                   "has_dossier":  true,
+                                                   "has_ticket":  false
+                                               },
+                               "rules_applied":  "Mẫu hồ sơ B2B chuẩn, Quy chuẩn soạn thảo email chào giá, Phiếu trình duyệt Trưởng phòng",
+                               "decision":  "Hoàn tất tạo hồ sơ . Sẵn sàng bàn giao cho NVKD (Đặng Mai Phương).",
+                               "execution_time_ms":  3
+                           }
+                       ],
+        "processed_at":  "2026-11-13 07:35:30"
+    },
+    {
+        "inquiry_id":  "REQ-20261112-212840-1",
+        "customer_name":  "T10",
+        "contact_email":  "11",
+        "assigned_rep":  {
+                             "id":  "SR01",
+                             "name":  "Nguyễn Văn An",
+                             "email":  "an.nv@minhan.com.vn"
+                         },
+        "status":  "Cần bổ sung",
+        "eligible_for_pipeline":  false,
+        "subtotal":  0,
+        "applied_discount_rate":  null,
+        "discount_amount":  0,
+        "final_total":  0,
+        "budget":  null,
+        "deadline_days":  null,
+        "max_lead_time_days":  null,
+        "approval_required":  false,
+        "approval_reason":  null,
+        "classification_reasons":  [
+                                       "Thiếu thông tin bắt buộc: Danh mục sản phẩm (items), Ngân sách dự kiến (budget), Thời hạn triển khai (deadline_days)"
+                                   ],
+        "enriched_items":  [
+
+                           ],
+        "dossier_md":  "# HỒ SƠ CƠ HỘI BÁN HÀNG B2B (OPPORTUNITY DOSSIER)\n- **Mã hồ sơ:** REQ-20261112-212840-1\n- **Khách hàng:** T10\n- **Email liên hệ:** 11\n- **Chuyên viên phụ trách:** Nguyễn Văn An (an.nv@minhan.com.vn)\n- **Trạng thái phân loại:** **Cần bổ sung**\n- **Thời gian lập hồ sơ:** 2026-11-13 07:35:30\n\n---\n\n## 1. Kết quả Đánh giá Nghiệp vụ \u0026 Khả năng đáp ứng:\n- **Tổng giá trị niêm yết (Subtotal):** 0 VND\n- **Tỷ lệ chiết khấu áp dụng:** 0% (0 VND)\n- **Tổng giá trị đề xuất sau chiết khấu:** **0 VND**\n- **Ngân sách khách hàng:** Chưa cung cấp\n- **Thời hạn giao hàng cam kết:**  ngày (Khách yêu cầu:  ngày)\n\n## 2. Lý do Phân loại Trạng thái:\n- Thiếu thông tin bắt buộc: Danh mục sản phẩm (items), Ngân sách dự kiến (budget), Thời hạn triển khai (deadline_days)\r\n\n\n## 3. Danh mục Hạng mục Báo giá (BoQ):\n| Mã SP | Tên Sản Phẩm | SL | Đơn Giá (VND) | Thành Tiền (VND) | Tồn kho ATP | Lead Time |\n| :--- | :--- | :---: | :---: | :---: | :---: | :---: |\n",
+        "draft_email":  "Kính gửi Quý Khách hàng (T10),\n\nCông ty Minh An trân trọng cảm ơn Quý đơn vị đã liên hệ. Để chúng tôi có thể lập phương án báo giá chính xác và tối ưu nhất, kính đề nghị Quý khách vui lòng làm rõ/bổ sung các thông tin sau:\n- Danh mục sản phẩm (items)\r\n- Ngân sách dự kiến (budget)\r\n- Thời hạn triển khai (deadline_days)\r\n\n\nNgay sau khi nhận đủ thông tin, chuyên viên Minh An sẽ gửi Báo giá chính thức trong vòng 04 giờ làm việc.\n\nTrân trọng cảm ơn,\nNguyễn Văn An (an.nv@minhan.com.vn)\nPhòng Kinh doanh • Công ty Minh An",
+        "approval_ticket":  null,
+        "trace_logs":  [
+                           {
+                               "inquiry_id":  "REQ-20261112-212840-1",
+                               "timestamp":  "2026-11-13 07:35:30",
+                               "step_name":  "1. Tiếp nhận \u0026 Phân tích yêu cầu",
+                               "skill_called":  "requirement_analysis",
+                               "tool_called":  "tool_extract_and_validate",
+                               "tool_input":  {
+                                                  "customer_name":  "T10",
+                                                  "raw_text":  "T10 11 30 330 95% 3.0 0.0091"
+                                              },
+                               "tool_output":  {
+                                                   "is_complete":  false,
+                                                   "missing_fields":  [
+                                                                          "Danh mục sản phẩm (items)",
+                                                                          "Ngân sách dự kiến (budget)",
+                                                                          "Thời hạn triển khai (deadline_days)"
+                                                                      ]
+                                               },
+                               "rules_applied":  "Kiểm tra tính đầy đủ 5 trường: Customer, Email, Items, Budget, Deadline",
+                               "decision":  "Thiếu thông tin: Danh mục sản phẩm (items), Ngân sách dự kiến (budget), Thời hạn triển khai (deadline_days) -\u003e Kích hoạt nhánh Bổ sung.",
+                               "execution_time_ms":  1
+                           },
+                           {
+                               "inquiry_id":  "REQ-20261112-212840-1",
+                               "timestamp":  "2026-11-13 07:35:30",
+                               "step_name":  "2. Thẩm định kho, giá \u0026 Ma trận phê duyệt",
+                               "skill_called":  "opportunity_evaluation",
+                               "tool_called":  "tool_evaluate_feasibility_and_pricing",
+                               "tool_input":  {
+                                                  "deadline":  null,
+                                                  "budget":  null,
+                                                  "items":  [
+
+                                                            ]
+                                              },
+                               "tool_output":  {
+                                                   "subtotal":  0,
+                                                   "status":  "Cần bổ sung",
+                                                   "lead_time":  null,
+                                                   "final_total":  0
+                                               },
+                               "rules_applied":  "Bảng giá Master, Tồn kho ATP, Chính sách chiết khấu Tier 1-4, Thẩm quyền NVKD \u003c= 10% \u0026 \u003c= 200M",
+                               "decision":  "Xác định trạng thái: Cần bổ sung. Lý do: Thiếu thông tin bắt buộc: Danh mục sản phẩm (items), Ngân sách dự kiến (budget), Thời hạn triển khai (deadline_days)",
+                               "execution_time_ms":  1
+                           },
+                           {
+                               "inquiry_id":  "REQ-20261112-212840-1",
+                               "timestamp":  "2026-11-13 07:35:30",
+                               "step_name":  "3. Tạo Hồ sơ, Dự thảo Email \u0026 Phiếu duyệt",
+                               "skill_called":  "sales_document_generator",
+                               "tool_called":  "tool_generate_dossier_email_ticket",
+                               "tool_input":  {
+                                                  "assigned_rep":  "Nguyễn Văn An",
+                                                  "status":  "Cần bổ sung"
+                                              },
+                               "tool_output":  {
+                                                   "has_email":  true,
+                                                   "has_dossier":  true,
+                                                   "has_ticket":  false
+                                               },
+                               "rules_applied":  "Mẫu hồ sơ B2B chuẩn, Quy chuẩn soạn thảo email chào giá, Phiếu trình duyệt Trưởng phòng",
+                               "decision":  "Hoàn tất tạo hồ sơ . Sẵn sàng bàn giao cho NVKD (Nguyễn Văn An).",
+                               "execution_time_ms":  3
+                           }
+                       ],
+        "processed_at":  "2026-11-13 07:35:30"
+    },
+    {
+        "inquiry_id":  "REQ-TEST-AUTO-99",
+        "customer_name":  "Công ty TNHH Viễn Đông Tech",
+        "contact_email":  "procurement@viendong.vn",
+        "assigned_rep":  {
+                             "id":  "SR03",
+                             "name":  "Lê Hoàng Cường",
+                             "email":  "cuong.lh@minhan.com.vn"
+                         },
+        "status":  "Có thể tiếp tục",
+        "eligible_for_pipeline":  true,
+        "subtotal":  188000000,
+        "applied_discount_rate":  0.04,
+        "discount_amount":  7520000,
+        "final_total":  180480000,
+        "budget":  200000000,
+        "deadline_days":  10,
+        "max_lead_time_days":  3,
+        "approval_required":  false,
+        "approval_reason":  null,
+        "classification_reasons":  [
+                                       "Đầy đủ thông tin, hàng khả dụng đủ/kịp tiến độ (3 ngày \u003c= 10 ngày), ngân sách hợp lệ và chiết khấu trong thẩm quyền NVKD."
+                                   ],
+        "enriched_items":  [
+                               {
+                                   "product_id":  "PROD-002",
+                                   "product_name":  "Máy chủ HPE ProLiant DL380 Gen10 (Xeon Silver 4210R, 32GB)",
+                                   "quantity":  2,
+                                   "list_price":  85000000,
+                                   "line_total":  170000000,
+                                   "stock_available":  5,
+                                   "stock_sufficient":  true,
+                                   "lead_time_days":  3
+                               },
+                               {
+                                   "product_id":  "PROD-003",
+                                   "product_name":  "Cisco Catalyst Switch 24-Port Gigabit PoE (C9200L-24P-4G-E)",
+                                   "quantity":  1,
+                                   "list_price":  18000000,
+                                   "line_total":  18000000,
+                                   "stock_available":  15,
+                                   "stock_sufficient":  true,
+                                   "lead_time_days":  2
+                               }
+                           ],
+        "dossier_md":  "# HỒ SƠ CƠ HỘI BÁN HÀNG B2B (OPPORTUNITY DOSSIER)\n- **Mã hồ sơ:** REQ-TEST-AUTO-99\n- **Khách hàng:** Công ty TNHH Viễn Đông Tech\n- **Email liên hệ:** procurement@viendong.vn\n- **Chuyên viên phụ trách:** Lê Hoàng Cường (cuong.lh@minhan.com.vn)\n- **Trạng thái phân loại:** **Có thể tiếp tục**\n- **Thời gian lập hồ sơ:** 2026-11-13 07:55:44\n\n---\n\n## 1. Kết quả Đánh giá Nghiệp vụ \u0026 Khả năng đáp ứng:\n- **Tổng giá trị niêm yết (Subtotal):** 188,000,000 VND\n- **Tỷ lệ chiết khấu áp dụng:** 4% (7,520,000 VND)\n- **Tổng giá trị đề xuất sau chiết khấu:** **180,480,000 VND**\n- **Ngân sách khách hàng:** 200,000,000 VND\n- **Thời hạn giao hàng cam kết:** 3 ngày (Khách yêu cầu: 10 ngày)\n\n## 2. Lý do Phân loại Trạng thái:\n- Đầy đủ thông tin, hàng khả dụng đủ/kịp tiến độ (3 ngày \u003c= 10 ngày), ngân sách hợp lệ và chiết khấu trong thẩm quyền NVKD.\r\n\n\n## 3. Danh mục Hạng mục Báo giá (BoQ):\n| Mã SP | Tên Sản Phẩm | SL | Đơn Giá (VND) | Thành Tiền (VND) | Tồn kho ATP | Lead Time |\n| :--- | :--- | :---: | :---: | :---: | :---: | :---: |\n| PROD-002 | Máy chủ HPE ProLiant DL380 Gen10 (Xeon Silver 4210R, 32GB) | 2 | 85,000,000 | 170,000,000 | 5 | 3 ngày |\r\n| PROD-003 | Cisco Catalyst Switch 24-Port Gigabit PoE (C9200L-24P-4G-E) | 1 | 18,000,000 | 18,000,000 | 15 | 2 ngày |\r\n",
+        "draft_email":  "Kính gửi Quý Khách hàng (Công ty TNHH Viễn Đông Tech),\n\nCông ty Cổ phần Công nghệ Minh An xin chân thành cảm ơn Quý đơn vị đã quan tâm và gửi yêu cầu chào giá.\n\nChúng tôi trân trọng gửi tới Quý khách Báo giá chi tiết cho các hạng mục thiết bị và dịch vụ:\n- Tổng giá trị niêm yết: 188,000,000 VND\n- Chiết khấu ưu đãi doanh nghiệp (4%): -7,520,000 VND\n- TỔNG GIÁ TRỊ THANH TOÁN (đã gồm VAT): 180,480,000 VND\n- Thời gian bàn giao và triển khai: Trong vòng 3 ngày làm việc kể từ ngày ký hợp đồng.\n\nHàng hóa được cam kết chính hãng 100%, bảo hành tiêu chuẩn theo quy định của nhà sản xuất. Báo giá có hiệu lực trong vòng 15 ngày.\n\nRất mong sớm nhận được phản hồi và có cơ hội hợp tác cùng Quý công ty.\n\nTrân trọng,\nLê Hoàng Cường - Chuyên viên Kinh doanh B2B\nPhòng Kinh doanh • Công ty Cổ phần Công nghệ Minh An\nHotline: 1900 8866 • Email: cuong.lh@minhan.com.vn",
+        "approval_ticket":  null,
+        "trace_logs":  [
+                           {
+                               "inquiry_id":  "REQ-TEST-AUTO-99",
+                               "timestamp":  "2026-11-13 07:55:44",
+                               "step_name":  "1. Tiếp nhận \u0026 Phân tích yêu cầu",
+                               "skill_called":  "requirement_analysis",
+                               "tool_called":  "tool_extract_and_validate",
+                               "tool_input":  {
+                                                  "customer_name":  "Công ty TNHH Viễn Đông Tech",
+                                                  "raw_text":  "Cần mua 2 máy chủ HPE DL380 Gen10 và 1 Cisco Catalyst Switch 24-Port. Ngân sách 200 triệu, chiết khấu 4%, giao hàng trong 10 ngày."
+                                              },
+                               "tool_output":  {
+                                                   "is_complete":  true,
+                                                   "missing_fields":  [
+
+                                                                      ]
+                                               },
+                               "rules_applied":  "Kiểm tra tính đầy đủ 5 trường: Customer, Email, Items, Budget, Deadline",
+                               "decision":  "Đầy đủ thông tin hợp lệ -\u003e Chuyển sang Thẩm định nghiệp vụ.",
+                               "execution_time_ms":  24
+                           },
+                           {
+                               "inquiry_id":  "REQ-TEST-AUTO-99",
+                               "timestamp":  "2026-11-13 07:55:44",
+                               "step_name":  "2. Thẩm định kho, giá \u0026 Ma trận phê duyệt",
+                               "skill_called":  "opportunity_evaluation",
+                               "tool_called":  "tool_evaluate_feasibility_and_pricing",
+                               "tool_input":  {
+                                                  "deadline":  10,
+                                                  "budget":  200000000,
+                                                  "items":  [
+                                                                {
+                                                                    "product_id":  "PROD-002",
+                                                                    "product_name":  "Máy chủ HPE ProLiant DL380 Gen10",
+                                                                    "quantity":  2
+                                                                },
+                                                                {
+                                                                    "product_id":  "PROD-003",
+                                                                    "product_name":  "Cisco Catalyst Switch 24-Port",
+                                                                    "quantity":  1
+                                                                }
+                                                            ]
+                                              },
+                               "tool_output":  {
+                                                   "subtotal":  188000000,
+                                                   "status":  "Có thể tiếp tục",
+                                                   "lead_time":  3,
+                                                   "final_total":  180480000
+                                               },
+                               "rules_applied":  "Bảng giá Master, Tồn kho ATP, Chính sách chiết khấu Tier 1-4, Thẩm quyền NVKD \u003c= 10% \u0026 \u003c= 200M",
+                               "decision":  "Xác định trạng thái: Có thể tiếp tục. Lý do: Đầy đủ thông tin, hàng khả dụng đủ/kịp tiến độ (3 ngày \u003c= 10 ngày), ngân sách hợp lệ và chiết khấu trong thẩm quyền NVKD.",
+                               "execution_time_ms":  86
+                           },
+                           {
+                               "inquiry_id":  "REQ-TEST-AUTO-99",
+                               "timestamp":  "2026-11-13 07:55:44",
+                               "step_name":  "3. Tạo Hồ sơ, Dự thảo Email \u0026 Phiếu duyệt",
+                               "skill_called":  "sales_document_generator",
+                               "tool_called":  "tool_generate_dossier_email_ticket",
+                               "tool_input":  {
+                                                  "assigned_rep":  "Lê Hoàng Cường",
+                                                  "status":  "Có thể tiếp tục"
+                                              },
+                               "tool_output":  {
+                                                   "has_email":  true,
+                                                   "has_dossier":  true,
+                                                   "has_ticket":  false
+                                               },
+                               "rules_applied":  "Mẫu hồ sơ B2B chuẩn, Quy chuẩn soạn thảo email chào giá, Phiếu trình duyệt Trưởng phòng",
+                               "decision":  "Hoàn tất tạo hồ sơ . Sẵn sàng bàn giao cho NVKD (Lê Hoàng Cường).",
+                               "execution_time_ms":  60
+                           }
+                       ],
+        "processed_at":  "2026-11-13 07:55:44"
+    },
+    {
+        "inquiry_id":  "REQ-TEST-HITL-01",
+        "customer_name":  "Tập đoàn An Thịnh",
+        "contact_email":  "procurement@anthinh.vn",
+        "assigned_rep":  {
+                             "id":  "SR02",
+                             "name":  "Trần Thị Bình",
+                             "email":  "binh.tt@minhan.com.vn"
+                         },
+        "status":  "Chưa đáp ứng (Từ chối duyệt)",
+        "eligible_for_pipeline":  true,
+        "subtotal":  860000000,
+        "applied_discount_rate":  0.1,
+        "discount_amount":  86000000,
+        "final_total":  774000000,
+        "budget":  800000000,
+        "deadline_days":  25,
+        "max_lead_time_days":  21,
+        "approval_required":  true,
+        "approval_reason":  "Giá trị đơn hàng (774,000,000 VND) vượt hạn mức phê duyệt NVKD (200,000,000 VND). Cần Trưởng phòng duyệt.",
+        "classification_reasons":  [
+                                       "Giá trị đơn hàng (774,000,000 VND) vượt hạn mức phê duyệt NVKD (200,000,000 VND). Cần Trưởng phòng duyệt."
+                                   ],
+        "enriched_items":  [
+                               {
+                                   "product_id":  "PROD-002",
+                                   "product_name":  "Máy chủ HPE ProLiant DL380 Gen10 (Xeon Silver 4210R, 32GB)",
+                                   "quantity":  8,
+                                   "list_price":  85000000,
+                                   "line_total":  680000000,
+                                   "stock_available":  5,
+                                   "stock_sufficient":  false,
+                                   "lead_time_days":  21
+                               },
+                               {
+                                   "product_id":  "PROD-003",
+                                   "product_name":  "Cisco Catalyst Switch 24-Port Gigabit PoE (C9200L-24P-4G-E)",
+                                   "quantity":  10,
+                                   "list_price":  18000000,
+                                   "line_total":  180000000,
+                                   "stock_available":  15,
+                                   "stock_sufficient":  true,
+                                   "lead_time_days":  2
+                               }
+                           ],
+        "dossier_md":  "# HỒ SƠ CƠ HỘI BÁN HÀNG B2B (OPPORTUNITY DOSSIER)\n- **Mã hồ sơ:** REQ-TEST-HITL-01\n- **Khách hàng:** Tập đoàn An Thịnh\n- **Email liên hệ:** procurement@anthinh.vn\n- **Chuyên viên phụ trách:** Trần Thị Bình (binh.tt@minhan.com.vn)\n- **Trạng thái phân loại:** **Chờ duyệt**\n- **Thời gian lập hồ sơ:** 2026-11-13 07:56:15\n\n---\n\n## 1. Kết quả Đánh giá Nghiệp vụ \u0026 Khả năng đáp ứng:\n- **Tổng giá trị niêm yết (Subtotal):** 860,000,000 VND\n- **Tỷ lệ chiết khấu áp dụng:** 10% (86,000,000 VND)\n- **Tổng giá trị đề xuất sau chiết khấu:** **774,000,000 VND**\n- **Ngân sách khách hàng:** 800,000,000 VND\n- **Thời hạn giao hàng cam kết:** 21 ngày (Khách yêu cầu: 25 ngày)\n\n## 2. Lý do Phân loại Trạng thái:\n- Giá trị đơn hàng (774,000,000 VND) vượt hạn mức phê duyệt NVKD (200,000,000 VND). Cần Trưởng phòng duyệt.\r\n\n\n## 3. Danh mục Hạng mục Báo giá (BoQ):\n| Mã SP | Tên Sản Phẩm | SL | Đơn Giá (VND) | Thành Tiền (VND) | Tồn kho ATP | Lead Time |\n| :--- | :--- | :---: | :---: | :---: | :---: | :---: |\n| PROD-002 | Máy chủ HPE ProLiant DL380 Gen10 (Xeon Silver 4210R, 32GB) | 8 | 85,000,000 | 680,000,000 | 5 | 21 ngày |\r\n| PROD-003 | Cisco Catalyst Switch 24-Port Gigabit PoE (C9200L-24P-4G-E) | 10 | 18,000,000 | 180,000,000 | 15 | 2 ngày |\r\n",
+        "draft_email":  "Kính gửi Quý Khách hàng (Tập đoàn An Thịnh),\n\nCông ty Minh An đã tiếp nhận hồ sơ yêu cầu chào giá của Quý đơn vị. \n\nHồ sơ của Quý khách đang được trình Trưởng phòng Kinh doanh xem xét và phê duyệt chính sách chiết khấu ngoại lệ (10%) theo quy định quản trị doanh nghiệp.\n\nChuyên viên phụ trách (Trần Thị Bình) sẽ phản hồi kết quả và gửi Hồ sơ Báo giá hoàn chỉnh tới Quý khách trước 17h00 cùng ngày.\n\nTrân trọng cảm ơn sự kiên nhẫn của Quý công ty,\nTrần Thị Bình - Chuyên viên Kinh doanh B2B\nCông ty Cổ phần Công nghệ Minh An",
+        "approval_ticket":  "PHIẾU CHUYỂN PHÊ DUYỆT NGOẠI LỆ (APPROVAL TICKET)\nMã phiếu: TKT-REQ-TEST-HITL-01\nThời gian tạo: 2026-11-13 07:56:15\n--------------------------------------------------------------------------------\n1. Thông tin Khách hàng \u0026 Cơ hội:\n- Khách hàng: Tập đoàn An Thịnh\n- Nhân viên đề xuất: Trần Thị Bình (binh.tt@minhan.com.vn)\n- Tổng giá trị đơn hàng sau chiết khấu: 774,000,000 VND\n- Tỷ lệ chiết khấu xin duyệt: 10%\n\n2. Căn cứ và Lý do chuyển duyệt:\n- Giá trị đơn hàng (774,000,000 VND) vượt hạn mức phê duyệt NVKD (200,000,000 VND). Cần Trưởng phòng duyệt.\r\n\n\n3. Cấp thẩm quyền phê duyệt:\n- Thẩm quyền xét duyệt: Trưởng phòng Kinh doanh (Hoàng Minh Trí - tri.hm@minhan.com.vn)\n- Hạn xử lý SLA: Trong vòng 04 giờ làm việc.\n\n4. Quyết định của Trưởng phòng / Cấp thẩm quyền:\n[  ] ĐỒNG Ý PHÊ DUYỆT (APPROVED)\n[  ] TỪ CHỐI (REJECTED)\n[  ] YÊU CẦU CHỈNH SỬA / ĐÀM PHÁN LẠI (REVISION REQUIRED)\nÝ kiến phê duyệt: .............................................................\nChữ ký số: .....................................................................",
+        "trace_logs":  [
+                           {
+                               "inquiry_id":  "REQ-TEST-HITL-01",
+                               "timestamp":  "2026-11-13 07:56:15",
+                               "step_name":  "1. Tiếp nhận \u0026 Phân tích yêu cầu",
+                               "skill_called":  "requirement_analysis",
+                               "tool_called":  "tool_extract_and_validate",
+                               "tool_input":  {
+                                                  "customer_name":  "Tập đoàn An Thịnh",
+                                                  "raw_text":  "Cần mua 8 Máy chủ HPE DL380 và 10 Switch Cisco. Ngân sách 800 triệu, chiết khấu 10%, giao trong 25 ngày."
+                                              },
+                               "tool_output":  {
+                                                   "is_complete":  true,
+                                                   "missing_fields":  [
+
+                                                                      ]
+                                               },
+                               "rules_applied":  "Kiểm tra tính đầy đủ 5 trường: Customer, Email, Items, Budget, Deadline",
+                               "decision":  "Đầy đủ thông tin hợp lệ -\u003e Chuyển sang Thẩm định nghiệp vụ.",
+                               "execution_time_ms":  1
+                           },
+                           {
+                               "inquiry_id":  "REQ-TEST-HITL-01",
+                               "timestamp":  "2026-11-13 07:56:15",
+                               "step_name":  "2. Thẩm định kho, giá \u0026 Ma trận phê duyệt",
+                               "skill_called":  "opportunity_evaluation",
+                               "tool_called":  "tool_evaluate_feasibility_and_pricing",
+                               "tool_input":  {
+                                                  "deadline":  25,
+                                                  "budget":  800000000,
+                                                  "items":  [
+                                                                {
+                                                                    "product_id":  "PROD-002",
+                                                                    "product_name":  "Máy chủ HPE ProLiant DL380 Gen10",
+                                                                    "quantity":  8
+                                                                },
+                                                                {
+                                                                    "product_id":  "PROD-003",
+                                                                    "product_name":  "Cisco Catalyst Switch 24-Port",
+                                                                    "quantity":  10
+                                                                }
+                                                            ]
+                                              },
+                               "tool_output":  {
+                                                   "subtotal":  860000000,
+                                                   "status":  "Chờ duyệt",
+                                                   "lead_time":  21,
+                                                   "final_total":  774000000
+                                               },
+                               "rules_applied":  "Bảng giá Master, Tồn kho ATP, Chính sách chiết khấu Tier 1-4, Thẩm quyền NVKD \u003c= 10% \u0026 \u003c= 200M",
+                               "decision":  "Xác định trạng thái: Chờ duyệt. Lý do: Giá trị đơn hàng (774,000,000 VND) vượt hạn mức phê duyệt NVKD (200,000,000 VND). Cần Trưởng phòng duyệt.",
+                               "execution_time_ms":  6
+                           },
+                           {
+                               "inquiry_id":  "REQ-TEST-HITL-01",
+                               "timestamp":  "2026-11-13 07:56:15",
+                               "step_name":  "3. Tạo Hồ sơ, Dự thảo Email \u0026 Phiếu duyệt",
+                               "skill_called":  "sales_document_generator",
+                               "tool_called":  "tool_generate_dossier_email_ticket",
+                               "tool_input":  {
+                                                  "assigned_rep":  "Trần Thị Bình",
+                                                  "status":  "Chờ duyệt"
+                                              },
+                               "tool_output":  {
+                                                   "has_email":  true,
+                                                   "has_dossier":  true,
+                                                   "has_ticket":  true
+                                               },
+                               "rules_applied":  "Mẫu hồ sơ B2B chuẩn, Quy chuẩn soạn thảo email chào giá, Phiếu trình duyệt Trưởng phòng",
+                               "decision":  "Hoàn tất tạo hồ sơ . Sẵn sàng bàn giao cho NVKD (Trần Thị Bình).",
+                               "execution_time_ms":  6
+                           }
+                       ],
+        "processed_at":  "2026-11-13 07:56:15",
+        "approval_decision":  "Từ chối bởi Ho�ng Minh Tr� (Tru?ng ph�ng Kinh doanh) - Lý do: Chi?t kh?u qu� cao 10% v� kh�ch h�ng kh�ng d�p ?ng di?u ki?n b?o l�nh thanh to�n."
+    },
+    {
+        "inquiry_id":  "REQ-261113005841",
+        "customer_name":  "Công ty Cổ phần Công nghệ Sao Việt",
+        "contact_email":  "muasam@saoviet.com.vn",
+        "assigned_rep":  {
+                             "id":  "SR02",
+                             "name":  "Trần Thị Bình",
+                             "email":  "binh.tt@minhan.com.vn"
+                         },
+        "status":  "Có thể tiếp tục",
+        "eligible_for_pipeline":  true,
+        "subtotal":  188000000,
+        "applied_discount_rate":  0.04,
+        "discount_amount":  7520000,
+        "final_total":  180480000,
+        "budget":  200000000,
+        "deadline_days":  10,
+        "max_lead_time_days":  3,
+        "approval_required":  false,
+        "approval_reason":  null,
+        "classification_reasons":  [
+                                       "Đầy đủ thông tin, hàng khả dụng đủ/kịp tiến độ (3 ngày \u003c= 10 ngày), ngân sách hợp lệ và chiết khấu trong thẩm quyền NVKD."
+                                   ],
+        "enriched_items":  [
+                               {
+                                   "product_id":  "PROD-002",
+                                   "product_name":  "Máy chủ HPE ProLiant DL380 Gen10 (Xeon Silver 4210R, 32GB)",
+                                   "quantity":  2,
+                                   "list_price":  85000000,
+                                   "line_total":  170000000,
+                                   "stock_available":  5,
+                                   "stock_sufficient":  true,
+                                   "lead_time_days":  3
+                               },
+                               {
+                                   "product_id":  "PROD-003",
+                                   "product_name":  "Cisco Catalyst Switch 24-Port Gigabit PoE (C9200L-24P-4G-E)",
+                                   "quantity":  1,
+                                   "list_price":  18000000,
+                                   "line_total":  18000000,
+                                   "stock_available":  15,
+                                   "stock_sufficient":  true,
+                                   "lead_time_days":  2
+                               }
+                           ],
+        "dossier_md":  "# HỒ SƠ CƠ HỘI BÁN HÀNG B2B (OPPORTUNITY DOSSIER)\n- **Mã hồ sơ:** REQ-261113005841\n- **Khách hàng:** Công ty Cổ phần Công nghệ Sao Việt\n- **Email liên hệ:** muasam@saoviet.com.vn\n- **Chuyên viên phụ trách:** Trần Thị Bình (binh.tt@minhan.com.vn)\n- **Trạng thái phân loại:** **Có thể tiếp tục**\n- **Thời gian lập hồ sơ:** 2026-11-13 07:58:41\n\n---\n\n## 1. Kết quả Đánh giá Nghiệp vụ \u0026 Khả năng đáp ứng:\n- **Tổng giá trị niêm yết (Subtotal):** 188,000,000 VND\n- **Tỷ lệ chiết khấu áp dụng:** 4% (7,520,000 VND)\n- **Tổng giá trị đề xuất sau chiết khấu:** **180,480,000 VND**\n- **Ngân sách khách hàng:** 200,000,000 VND\n- **Thời hạn giao hàng cam kết:** 3 ngày (Khách yêu cầu: 10 ngày)\n\n## 2. Lý do Phân loại Trạng thái:\n- Đầy đủ thông tin, hàng khả dụng đủ/kịp tiến độ (3 ngày \u003c= 10 ngày), ngân sách hợp lệ và chiết khấu trong thẩm quyền NVKD.\r\n\n\n## 3. Danh mục Hạng mục Báo giá (BoQ):\n| Mã SP | Tên Sản Phẩm | SL | Đơn Giá (VND) | Thành Tiền (VND) | Tồn kho ATP | Lead Time |\n| :--- | :--- | :---: | :---: | :---: | :---: | :---: |\n| PROD-002 | Máy chủ HPE ProLiant DL380 Gen10 (Xeon Silver 4210R, 32GB) | 2 | 85,000,000 | 170,000,000 | 5 | 3 ngày |\r\n| PROD-003 | Cisco Catalyst Switch 24-Port Gigabit PoE (C9200L-24P-4G-E) | 1 | 18,000,000 | 18,000,000 | 15 | 2 ngày |\r\n",
+        "draft_email":  "Kính gửi Quý Khách hàng (Công ty Cổ phần Công nghệ Sao Việt),\n\nCông ty Cổ phần Công nghệ Minh An xin chân thành cảm ơn Quý đơn vị đã quan tâm và gửi yêu cầu chào giá.\n\nChúng tôi trân trọng gửi tới Quý khách Báo giá chi tiết cho các hạng mục thiết bị và dịch vụ:\n- Tổng giá trị niêm yết: 188,000,000 VND\n- Chiết khấu ưu đãi doanh nghiệp (4%): -7,520,000 VND\n- TỔNG GIÁ TRỊ THANH TOÁN (đã gồm VAT): 180,480,000 VND\n- Thời gian bàn giao và triển khai: Trong vòng 3 ngày làm việc kể từ ngày ký hợp đồng.\n\nHàng hóa được cam kết chính hãng 100%, bảo hành tiêu chuẩn theo quy định của nhà sản xuất. Báo giá có hiệu lực trong vòng 15 ngày.\n\nRất mong sớm nhận được phản hồi và có cơ hội hợp tác cùng Quý công ty.\n\nTrân trọng,\nTrần Thị Bình - Chuyên viên Kinh doanh B2B\nPhòng Kinh doanh • Công ty Cổ phần Công nghệ Minh An\nHotline: 1900 8866 • Email: binh.tt@minhan.com.vn",
+        "approval_ticket":  null,
+        "trace_logs":  [
+                           {
+                               "inquiry_id":  "REQ-261113005841",
+                               "timestamp":  "2026-11-13 07:58:41",
+                               "step_name":  "1. Tiếp nhận \u0026 Phân tích yêu cầu",
+                               "skill_called":  "requirement_analysis",
+                               "tool_called":  "tool_extract_and_validate",
+                               "tool_input":  {
+                                                  "customer_name":  "Công ty Cổ phần Công nghệ Sao Việt",
+                                                  "raw_text":  "Kính gửi Công ty Minh An, chúng tôi cần mua 2 Máy chủ HPE DL380 Gen10 và 1 Cisco Catalyst Switch 24-Port. Đầy đủ ngân sách 200 triệu VND, chiết khấu hữu nghị 4% trong thẩm quyền NVKD. Thời hạn bàn giao là 10 ngày làm việc."
+                                              },
+                               "tool_output":  {
+                                                   "is_complete":  true,
+                                                   "missing_fields":  [
+
+                                                                      ]
+                                               },
+                               "rules_applied":  "Kiểm tra tính đầy đủ 5 trường: Customer, Email, Items, Budget, Deadline",
+                               "decision":  "Đầy đủ thông tin hợp lệ -\u003e Chuyển sang Thẩm định nghiệp vụ.",
+                               "execution_time_ms":  1
+                           },
+                           {
+                               "inquiry_id":  "REQ-261113005841",
+                               "timestamp":  "2026-11-13 07:58:41",
+                               "step_name":  "2. Thẩm định kho, giá \u0026 Ma trận phê duyệt",
+                               "skill_called":  "opportunity_evaluation",
+                               "tool_called":  "tool_evaluate_feasibility_and_pricing",
+                               "tool_input":  {
+                                                  "deadline":  10,
+                                                  "budget":  200000000,
+                                                  "items":  [
+                                                                {
+                                                                    "product_id":  "PROD-002",
+                                                                    "product_name":  "Máy chủ HPE ProLiant DL380 Gen10",
+                                                                    "quantity":  2
+                                                                },
+                                                                {
+                                                                    "product_id":  "PROD-003",
+                                                                    "product_name":  "Cisco Catalyst Switch 24-Port Gigabit",
+                                                                    "quantity":  1
+                                                                }
+                                                            ]
+                                              },
+                               "tool_output":  {
+                                                   "subtotal":  188000000,
+                                                   "status":  "Có thể tiếp tục",
+                                                   "lead_time":  3,
+                                                   "final_total":  180480000
+                                               },
+                               "rules_applied":  "Bảng giá Master, Tồn kho ATP, Chính sách chiết khấu Tier 1-4, Thẩm quyền NVKD \u003c= 10% \u0026 \u003c= 200M",
+                               "decision":  "Xác định trạng thái: Có thể tiếp tục. Lý do: Đầy đủ thông tin, hàng khả dụng đủ/kịp tiến độ (3 ngày \u003c= 10 ngày), ngân sách hợp lệ và chiết khấu trong thẩm quyền NVKD.",
+                               "execution_time_ms":  2
+                           },
+                           {
+                               "inquiry_id":  "REQ-261113005841",
+                               "timestamp":  "2026-11-13 07:58:41",
+                               "step_name":  "3. Tạo Hồ sơ, Dự thảo Email \u0026 Phiếu duyệt",
+                               "skill_called":  "sales_document_generator",
+                               "tool_called":  "tool_generate_dossier_email_ticket",
+                               "tool_input":  {
+                                                  "assigned_rep":  "Trần Thị Bình",
+                                                  "status":  "Có thể tiếp tục"
+                                              },
+                               "tool_output":  {
+                                                   "has_email":  true,
+                                                   "has_dossier":  true,
+                                                   "has_ticket":  false
+                                               },
+                               "rules_applied":  "Mẫu hồ sơ B2B chuẩn, Quy chuẩn soạn thảo email chào giá, Phiếu trình duyệt Trưởng phòng",
+                               "decision":  "Hoàn tất tạo hồ sơ . Sẵn sàng bàn giao cho NVKD (Trần Thị Bình).",
+                               "execution_time_ms":  3
+                           }
+                       ],
+        "processed_at":  "2026-11-13 07:58:41"
+    },
+    {
+        "inquiry_id":  "REQ-20261113-081554-0",
+        "customer_name":  "C�ng ty C? ph?n Ch?ng kho�n SSI",
+        "contact_email":  "it-procurement@ssi.com.vn",
+        "assigned_rep":  {
+                             "id":  "SR03",
+                             "name":  "Lê Hoàng Cường",
+                             "email":  "cuong.lh@minhan.com.vn"
+                         },
+        "status":  "Chờ duyệt",
+        "eligible_for_pipeline":  true,
+        "subtotal":  425000000,
+        "applied_discount_rate":  0.1,
+        "discount_amount":  42500000,
+        "final_total":  382500000,
+        "budget":  600000000,
+        "deadline_days":  15,
+        "max_lead_time_days":  3,
+        "approval_required":  true,
+        "approval_reason":  "Giá trị đơn hàng (382,500,000 VND) vượt hạn mức phê duyệt NVKD (200,000,000 VND). Cần Trưởng phòng duyệt.",
+        "classification_reasons":  [
+                                       "Giá trị đơn hàng (382,500,000 VND) vượt hạn mức phê duyệt NVKD (200,000,000 VND). Cần Trưởng phòng duyệt."
+                                   ],
+        "enriched_items":  [
+                               {
+                                   "product_id":  "PROD-002",
+                                   "product_name":  "Máy chủ HPE ProLiant DL380 Gen10 (Xeon Silver 4210R, 32GB)",
+                                   "quantity":  5,
+                                   "list_price":  85000000,
+                                   "line_total":  425000000,
+                                   "stock_available":  5,
+                                   "stock_sufficient":  true,
+                                   "lead_time_days":  3
+                               }
+                           ],
+        "dossier_md":  "# HỒ SƠ CƠ HỘI BÁN HÀNG B2B (OPPORTUNITY DOSSIER)\n- **Mã hồ sơ:** REQ-20261113-081554-0\n- **Khách hàng:** C�ng ty C? ph?n Ch?ng kho�n SSI\n- **Email liên hệ:** it-procurement@ssi.com.vn\n- **Chuyên viên phụ trách:** Lê Hoàng Cường (cuong.lh@minhan.com.vn)\n- **Trạng thái phân loại:** **Chờ duyệt**\n- **Thời gian lập hồ sơ:** 2026-11-13 08:15:54\n\n---\n\n## 1. Kết quả Đánh giá Nghiệp vụ \u0026 Khả năng đáp ứng:\n- **Tổng giá trị niêm yết (Subtotal):** 425,000,000 VND\n- **Tỷ lệ chiết khấu áp dụng:** 10% (42,500,000 VND)\n- **Tổng giá trị đề xuất sau chiết khấu:** **382,500,000 VND**\n- **Ngân sách khách hàng:** 600,000,000 VND\n- **Thời hạn giao hàng cam kết:** 3 ngày (Khách yêu cầu: 15 ngày)\n\n## 2. Lý do Phân loại Trạng thái:\n- Giá trị đơn hàng (382,500,000 VND) vượt hạn mức phê duyệt NVKD (200,000,000 VND). Cần Trưởng phòng duyệt.\r\n\n\n## 3. Danh mục Hạng mục Báo giá (BoQ):\n| Mã SP | Tên Sản Phẩm | SL | Đơn Giá (VND) | Thành Tiền (VND) | Tồn kho ATP | Lead Time |\n| :--- | :--- | :---: | :---: | :---: | :---: | :---: |\n| PROD-002 | Máy chủ HPE ProLiant DL380 Gen10 (Xeon Silver 4210R, 32GB) | 5 | 85,000,000 | 425,000,000 | 5 | 3 ngày |\r\n",
+        "draft_email":  "Kính gửi Quý Khách hàng (C�ng ty C? ph?n Ch?ng kho�n SSI),\n\nCông ty Minh An đã tiếp nhận hồ sơ yêu cầu chào giá của Quý đơn vị. \n\nHồ sơ của Quý khách đang được trình Trưởng phòng Kinh doanh xem xét và phê duyệt chính sách chiết khấu ngoại lệ (10%) theo quy định quản trị doanh nghiệp.\n\nChuyên viên phụ trách (Lê Hoàng Cường) sẽ phản hồi kết quả và gửi Hồ sơ Báo giá hoàn chỉnh tới Quý khách trước 17h00 cùng ngày.\n\nTrân trọng cảm ơn sự kiên nhẫn của Quý công ty,\nLê Hoàng Cường - Chuyên viên Kinh doanh B2B\nCông ty Cổ phần Công nghệ Minh An",
+        "approval_ticket":  "PHIẾU CHUYỂN PHÊ DUYỆT NGOẠI LỆ (APPROVAL TICKET)\nMã phiếu: TKT-REQ-20261113-081554-0\nThời gian tạo: 2026-11-13 08:15:54\n--------------------------------------------------------------------------------\n1. Thông tin Khách hàng \u0026 Cơ hội:\n- Khách hàng: C�ng ty C? ph?n Ch?ng kho�n SSI\n- Nhân viên đề xuất: Lê Hoàng Cường (cuong.lh@minhan.com.vn)\n- Tổng giá trị đơn hàng sau chiết khấu: 382,500,000 VND\n- Tỷ lệ chiết khấu xin duyệt: 10%\n\n2. Căn cứ và Lý do chuyển duyệt:\n- Giá trị đơn hàng (382,500,000 VND) vượt hạn mức phê duyệt NVKD (200,000,000 VND). Cần Trưởng phòng duyệt.\r\n\n\n3. Cấp thẩm quyền phê duyệt:\n- Thẩm quyền xét duyệt: Trưởng phòng Kinh doanh (Hoàng Minh Trí - tri.hm@minhan.com.vn)\n- Hạn xử lý SLA: Trong vòng 04 giờ làm việc.\n\n4. Quyết định của Trưởng phòng / Cấp thẩm quyền:\n[  ] ĐỒNG Ý PHÊ DUYỆT (APPROVED)\n[  ] TỪ CHỐI (REJECTED)\n[  ] YÊU CẦU CHỈNH SỬA / ĐÀM PHÁN LẠI (REVISION REQUIRED)\nÝ kiến phê duyệt: .............................................................\nChữ ký số: .....................................................................",
+        "trace_logs":  [
+                           {
+                               "inquiry_id":  "REQ-20261113-081554-0",
+                               "timestamp":  "2026-11-13 08:15:54",
+                               "step_name":  "1. Tiếp nhận \u0026 Phân tích yêu cầu",
+                               "skill_called":  "requirement_analysis",
+                               "tool_called":  "tool_extract_and_validate",
+                               "tool_input":  {
+                                                  "customer_name":  "C�ng ty C? ph?n Ch?ng kho�n SSI",
+                                                  "raw_text":  null
+                                              },
+                               "tool_output":  {
+                                                   "is_complete":  true,
+                                                   "missing_fields":  [
+
+                                                                      ]
+                                               },
+                               "rules_applied":  "Kiểm tra tính đầy đủ 5 trường: Customer, Email, Items, Budget, Deadline",
+                               "decision":  "Đầy đủ thông tin hợp lệ -\u003e Chuyển sang Thẩm định nghiệp vụ.",
+                               "execution_time_ms":  1
+                           },
+                           {
+                               "inquiry_id":  "REQ-20261113-081554-0",
+                               "timestamp":  "2026-11-13 08:15:54",
+                               "step_name":  "2. Thẩm định kho, giá \u0026 Ma trận phê duyệt",
+                               "skill_called":  "opportunity_evaluation",
+                               "tool_called":  "tool_evaluate_feasibility_and_pricing",
+                               "tool_input":  {
+                                                  "deadline":  15,
+                                                  "budget":  600000000,
+                                                  "items":  [
+                                                                {
+                                                                    "product_id":  "PROD-002",
+                                                                    "product_name":  "",
+                                                                    "quantity":  5
+                                                                }
+                                                            ]
+                                              },
+                               "tool_output":  {
+                                                   "subtotal":  425000000,
+                                                   "status":  "Chờ duyệt",
+                                                   "lead_time":  3,
+                                                   "final_total":  382500000
+                                               },
+                               "rules_applied":  "Bảng giá Master, Tồn kho ATP, Chính sách chiết khấu Tier 1-4, Thẩm quyền NVKD \u003c= 10% \u0026 \u003c= 200M",
+                               "decision":  "Xác định trạng thái: Chờ duyệt. Lý do: Giá trị đơn hàng (382,500,000 VND) vượt hạn mức phê duyệt NVKD (200,000,000 VND). Cần Trưởng phòng duyệt.",
+                               "execution_time_ms":  1
+                           },
+                           {
+                               "inquiry_id":  "REQ-20261113-081554-0",
+                               "timestamp":  "2026-11-13 08:15:54",
+                               "step_name":  "3. Tạo Hồ sơ, Dự thảo Email \u0026 Phiếu duyệt",
+                               "skill_called":  "sales_document_generator",
+                               "tool_called":  "tool_generate_dossier_email_ticket",
+                               "tool_input":  {
+                                                  "assigned_rep":  "Lê Hoàng Cường",
+                                                  "status":  "Chờ duyệt"
+                                              },
+                               "tool_output":  {
+                                                   "has_email":  true,
+                                                   "has_dossier":  true,
+                                                   "has_ticket":  true
+                                               },
+                               "rules_applied":  "Mẫu hồ sơ B2B chuẩn, Quy chuẩn soạn thảo email chào giá, Phiếu trình duyệt Trưởng phòng",
+                               "decision":  "Hoàn tất tạo hồ sơ . Sẵn sàng bàn giao cho NVKD (Lê Hoàng Cường).",
+                               "execution_time_ms":  5
+                           }
+                       ],
+        "processed_at":  "2026-11-13 08:15:54"
+    },
+    {
+        "inquiry_id":  "REQ-20261113-082047-846",
+        "customer_name":  "T?p do�n Vi?n th�ng Viettel Post",
+        "contact_email":  "muasam@viettelpost.com.vn",
+        "assigned_rep":  {
+                             "id":  "SR05",
+                             "name":  "Vũ Minh Đức",
+                             "email":  "duc.vm@minhan.com.vn"
+                         },
+        "status":  "Chờ duyệt",
+        "eligible_for_pipeline":  true,
+        "subtotal":  291000000,
+        "applied_discount_rate":  0.1,
+        "discount_amount":  29100000,
+        "final_total":  261900000,
+        "budget":  450000000,
+        "deadline_days":  10,
+        "max_lead_time_days":  3,
+        "approval_required":  true,
+        "approval_reason":  "Giá trị đơn hàng (261,900,000 VND) vượt hạn mức phê duyệt NVKD (200,000,000 VND). Cần Trưởng phòng duyệt.",
+        "classification_reasons":  [
+                                       "Giá trị đơn hàng (261,900,000 VND) vượt hạn mức phê duyệt NVKD (200,000,000 VND). Cần Trưởng phòng duyệt."
+                                   ],
+        "enriched_items":  [
+                               {
+                                   "product_id":  "PROD-002",
+                                   "product_name":  "Máy chủ HPE ProLiant DL380 Gen10 (Xeon Silver 4210R, 32GB)",
+                                   "quantity":  3,
+                                   "list_price":  85000000,
+                                   "line_total":  255000000,
+                                   "stock_available":  5,
+                                   "stock_sufficient":  true,
+                                   "lead_time_days":  3
+                               },
+                               {
+                                   "product_id":  "PROD-003",
+                                   "product_name":  "Cisco Catalyst Switch 24-Port Gigabit PoE (C9200L-24P-4G-E)",
+                                   "quantity":  2,
+                                   "list_price":  18000000,
+                                   "line_total":  36000000,
+                                   "stock_available":  15,
+                                   "stock_sufficient":  true,
+                                   "lead_time_days":  2
+                               }
+                           ],
+        "dossier_md":  "# HỒ SƠ CƠ HỘI BÁN HÀNG B2B (OPPORTUNITY DOSSIER)\n- **Mã hồ sơ:** REQ-20261113-082047-846\n- **Khách hàng:** T?p do�n Vi?n th�ng Viettel Post\n- **Email liên hệ:** muasam@viettelpost.com.vn\n- **Chuyên viên phụ trách:** Vũ Minh Đức (duc.vm@minhan.com.vn)\n- **Trạng thái phân loại:** **Chờ duyệt**\n- **Thời gian lập hồ sơ:** 2026-11-13 08:20:47\n\n---\n\n## 1. Kết quả Đánh giá Nghiệp vụ \u0026 Khả năng đáp ứng:\n- **Tổng giá trị niêm yết (Subtotal):** 291,000,000 VND\n- **Tỷ lệ chiết khấu áp dụng:** 10% (29,100,000 VND)\n- **Tổng giá trị đề xuất sau chiết khấu:** **261,900,000 VND**\n- **Ngân sách khách hàng:** 450,000,000 VND\n- **Thời hạn giao hàng cam kết:** 3 ngày (Khách yêu cầu: 10 ngày)\n\n## 2. Lý do Phân loại Trạng thái:\n- Giá trị đơn hàng (261,900,000 VND) vượt hạn mức phê duyệt NVKD (200,000,000 VND). Cần Trưởng phòng duyệt.\r\n\n\n## 3. Danh mục Hạng mục Báo giá (BoQ):\n| Mã SP | Tên Sản Phẩm | SL | Đơn Giá (VND) | Thành Tiền (VND) | Tồn kho ATP | Lead Time |\n| :--- | :--- | :---: | :---: | :---: | :---: | :---: |\n| PROD-002 | Máy chủ HPE ProLiant DL380 Gen10 (Xeon Silver 4210R, 32GB) | 3 | 85,000,000 | 255,000,000 | 5 | 3 ngày |\r\n| PROD-003 | Cisco Catalyst Switch 24-Port Gigabit PoE (C9200L-24P-4G-E) | 2 | 18,000,000 | 36,000,000 | 15 | 2 ngày |\r\n",
+        "draft_email":  "Kính gửi Quý Khách hàng (T?p do�n Vi?n th�ng Viettel Post),\n\nCông ty Minh An đã tiếp nhận hồ sơ yêu cầu chào giá của Quý đơn vị. \n\nHồ sơ của Quý khách đang được trình Trưởng phòng Kinh doanh xem xét và phê duyệt chính sách chiết khấu ngoại lệ (10%) theo quy định quản trị doanh nghiệp.\n\nChuyên viên phụ trách (Vũ Minh Đức) sẽ phản hồi kết quả và gửi Hồ sơ Báo giá hoàn chỉnh tới Quý khách trước 17h00 cùng ngày.\n\nTrân trọng cảm ơn sự kiên nhẫn của Quý công ty,\nVũ Minh Đức - Chuyên viên Kinh doanh B2B\nCông ty Cổ phần Công nghệ Minh An",
+        "approval_ticket":  "PHIẾU CHUYỂN PHÊ DUYỆT NGOẠI LỆ (APPROVAL TICKET)\nMã phiếu: TKT-REQ-20261113-082047-846\nThời gian tạo: 2026-11-13 08:20:47\n--------------------------------------------------------------------------------\n1. Thông tin Khách hàng \u0026 Cơ hội:\n- Khách hàng: T?p do�n Vi?n th�ng Viettel Post\n- Nhân viên đề xuất: Vũ Minh Đức (duc.vm@minhan.com.vn)\n- Tổng giá trị đơn hàng sau chiết khấu: 261,900,000 VND\n- Tỷ lệ chiết khấu xin duyệt: 10%\n\n2. Căn cứ và Lý do chuyển duyệt:\n- Giá trị đơn hàng (261,900,000 VND) vượt hạn mức phê duyệt NVKD (200,000,000 VND). Cần Trưởng phòng duyệt.\r\n\n\n3. Cấp thẩm quyền phê duyệt:\n- Thẩm quyền xét duyệt: Trưởng phòng Kinh doanh (Hoàng Minh Trí - tri.hm@minhan.com.vn)\n- Hạn xử lý SLA: Trong vòng 04 giờ làm việc.\n\n4. Quyết định của Trưởng phòng / Cấp thẩm quyền:\n[  ] ĐỒNG Ý PHÊ DUYỆT (APPROVED)\n[  ] TỪ CHỐI (REJECTED)\n[  ] YÊU CẦU CHỈNH SỬA / ĐÀM PHÁN LẠI (REVISION REQUIRED)\nÝ kiến phê duyệt: .............................................................\nChữ ký số: .....................................................................",
+        "trace_logs":  [
+                           {
+                               "inquiry_id":  "REQ-20261113-082047-846",
+                               "timestamp":  "2026-11-13 08:20:47",
+                               "step_name":  "1. Tiếp nhận \u0026 Phân tích yêu cầu",
+                               "skill_called":  "requirement_analysis",
+                               "tool_called":  "tool_extract_and_validate",
+                               "tool_input":  {
+                                                  "customer_name":  "T?p do�n Vi?n th�ng Viettel Post",
+                                                  "raw_text":  null
+                                              },
+                               "tool_output":  {
+                                                   "is_complete":  true,
+                                                   "missing_fields":  [
+
+                                                                      ]
+                                               },
+                               "rules_applied":  "Kiểm tra tính đầy đủ 5 trường: Customer, Email, Items, Budget, Deadline",
+                               "decision":  "Đầy đủ thông tin hợp lệ -\u003e Chuyển sang Thẩm định nghiệp vụ.",
+                               "execution_time_ms":  25
+                           },
+                           {
+                               "inquiry_id":  "REQ-20261113-082047-846",
+                               "timestamp":  "2026-11-13 08:20:47",
+                               "step_name":  "2. Thẩm định kho, giá \u0026 Ma trận phê duyệt",
+                               "skill_called":  "opportunity_evaluation",
+                               "tool_called":  "tool_evaluate_feasibility_and_pricing",
+                               "tool_input":  {
+                                                  "deadline":  10,
+                                                  "budget":  450000000,
+                                                  "items":  [
+                                                                {
+                                                                    "product_id":  "PROD-002",
+                                                                    "product_name":  "",
+                                                                    "quantity":  3
+                                                                },
+                                                                {
+                                                                    "product_id":  "PROD-003",
+                                                                    "product_name":  "",
+                                                                    "quantity":  2
+                                                                }
+                                                            ]
+                                              },
+                               "tool_output":  {
+                                                   "subtotal":  291000000,
+                                                   "status":  "Chờ duyệt",
+                                                   "lead_time":  3,
+                                                   "final_total":  261900000
+                                               },
+                               "rules_applied":  "Bảng giá Master, Tồn kho ATP, Chính sách chiết khấu Tier 1-4, Thẩm quyền NVKD \u003c= 10% \u0026 \u003c= 200M",
+                               "decision":  "Xác định trạng thái: Chờ duyệt. Lý do: Giá trị đơn hàng (261,900,000 VND) vượt hạn mức phê duyệt NVKD (200,000,000 VND). Cần Trưởng phòng duyệt.",
+                               "execution_time_ms":  38
+                           },
+                           {
+                               "inquiry_id":  "REQ-20261113-082047-846",
+                               "timestamp":  "2026-11-13 08:20:47",
+                               "step_name":  "3. Tạo Hồ sơ, Dự thảo Email \u0026 Phiếu duyệt",
+                               "skill_called":  "sales_document_generator",
+                               "tool_called":  "tool_generate_dossier_email_ticket",
+                               "tool_input":  {
+                                                  "assigned_rep":  "Vũ Minh Đức",
+                                                  "status":  "Chờ duyệt"
+                                              },
+                               "tool_output":  {
+                                                   "has_email":  true,
+                                                   "has_dossier":  true,
+                                                   "has_ticket":  true
+                                               },
+                               "rules_applied":  "Mẫu hồ sơ B2B chuẩn, Quy chuẩn soạn thảo email chào giá, Phiếu trình duyệt Trưởng phòng",
+                               "decision":  "Hoàn tất tạo hồ sơ . Sẵn sàng bàn giao cho NVKD (Vũ Minh Đức).",
+                               "execution_time_ms":  27
+                           }
+                       ],
+        "processed_at":  "2026-11-13 08:20:47"
+    },
+    {
+        "inquiry_id":  "REQ-20261113-082048-812",
+        "customer_name":  "C�ng ty C? ph?n Ch?ng kho�n SSI",
+        "contact_email":  "it-procurement@ssi.com.vn",
+        "assigned_rep":  {
+                             "id":  "SR01",
+                             "name":  "Nguyễn Văn An",
+                             "email":  "an.nv@minhan.com.vn"
+                         },
+        "status":  "Chờ duyệt",
+        "eligible_for_pipeline":  true,
+        "subtotal":  425000000,
+        "applied_discount_rate":  0.1,
+        "discount_amount":  42500000,
+        "final_total":  382500000,
+        "budget":  600000000,
+        "deadline_days":  15,
+        "max_lead_time_days":  3,
+        "approval_required":  true,
+        "approval_reason":  "Giá trị đơn hàng (382,500,000 VND) vượt hạn mức phê duyệt NVKD (200,000,000 VND). Cần Trưởng phòng duyệt.",
+        "classification_reasons":  [
+                                       "Giá trị đơn hàng (382,500,000 VND) vượt hạn mức phê duyệt NVKD (200,000,000 VND). Cần Trưởng phòng duyệt."
+                                   ],
+        "enriched_items":  [
+                               {
+                                   "product_id":  "PROD-002",
+                                   "product_name":  "Máy chủ HPE ProLiant DL380 Gen10 (Xeon Silver 4210R, 32GB)",
+                                   "quantity":  5,
+                                   "list_price":  85000000,
+                                   "line_total":  425000000,
+                                   "stock_available":  5,
+                                   "stock_sufficient":  true,
+                                   "lead_time_days":  3
+                               }
+                           ],
+        "dossier_md":  "# HỒ SƠ CƠ HỘI BÁN HÀNG B2B (OPPORTUNITY DOSSIER)\n- **Mã hồ sơ:** REQ-20261113-082048-812\n- **Khách hàng:** C�ng ty C? ph?n Ch?ng kho�n SSI\n- **Email liên hệ:** it-procurement@ssi.com.vn\n- **Chuyên viên phụ trách:** Nguyễn Văn An (an.nv@minhan.com.vn)\n- **Trạng thái phân loại:** **Chờ duyệt**\n- **Thời gian lập hồ sơ:** 2026-11-13 08:20:48\n\n---\n\n## 1. Kết quả Đánh giá Nghiệp vụ \u0026 Khả năng đáp ứng:\n- **Tổng giá trị niêm yết (Subtotal):** 425,000,000 VND\n- **Tỷ lệ chiết khấu áp dụng:** 10% (42,500,000 VND)\n- **Tổng giá trị đề xuất sau chiết khấu:** **382,500,000 VND**\n- **Ngân sách khách hàng:** 600,000,000 VND\n- **Thời hạn giao hàng cam kết:** 3 ngày (Khách yêu cầu: 15 ngày)\n\n## 2. Lý do Phân loại Trạng thái:\n- Giá trị đơn hàng (382,500,000 VND) vượt hạn mức phê duyệt NVKD (200,000,000 VND). Cần Trưởng phòng duyệt.\r\n\n\n## 3. Danh mục Hạng mục Báo giá (BoQ):\n| Mã SP | Tên Sản Phẩm | SL | Đơn Giá (VND) | Thành Tiền (VND) | Tồn kho ATP | Lead Time |\n| :--- | :--- | :---: | :---: | :---: | :---: | :---: |\n| PROD-002 | Máy chủ HPE ProLiant DL380 Gen10 (Xeon Silver 4210R, 32GB) | 5 | 85,000,000 | 425,000,000 | 5 | 3 ngày |\r\n",
+        "draft_email":  "Kính gửi Quý Khách hàng (C�ng ty C? ph?n Ch?ng kho�n SSI),\n\nCông ty Minh An đã tiếp nhận hồ sơ yêu cầu chào giá của Quý đơn vị. \n\nHồ sơ của Quý khách đang được trình Trưởng phòng Kinh doanh xem xét và phê duyệt chính sách chiết khấu ngoại lệ (10%) theo quy định quản trị doanh nghiệp.\n\nChuyên viên phụ trách (Nguyễn Văn An) sẽ phản hồi kết quả và gửi Hồ sơ Báo giá hoàn chỉnh tới Quý khách trước 17h00 cùng ngày.\n\nTrân trọng cảm ơn sự kiên nhẫn của Quý công ty,\nNguyễn Văn An - Chuyên viên Kinh doanh B2B\nCông ty Cổ phần Công nghệ Minh An",
+        "approval_ticket":  "PHIẾU CHUYỂN PHÊ DUYỆT NGOẠI LỆ (APPROVAL TICKET)\nMã phiếu: TKT-REQ-20261113-082048-812\nThời gian tạo: 2026-11-13 08:20:48\n--------------------------------------------------------------------------------\n1. Thông tin Khách hàng \u0026 Cơ hội:\n- Khách hàng: C�ng ty C? ph?n Ch?ng kho�n SSI\n- Nhân viên đề xuất: Nguyễn Văn An (an.nv@minhan.com.vn)\n- Tổng giá trị đơn hàng sau chiết khấu: 382,500,000 VND\n- Tỷ lệ chiết khấu xin duyệt: 10%\n\n2. Căn cứ và Lý do chuyển duyệt:\n- Giá trị đơn hàng (382,500,000 VND) vượt hạn mức phê duyệt NVKD (200,000,000 VND). Cần Trưởng phòng duyệt.\r\n\n\n3. Cấp thẩm quyền phê duyệt:\n- Thẩm quyền xét duyệt: Trưởng phòng Kinh doanh (Hoàng Minh Trí - tri.hm@minhan.com.vn)\n- Hạn xử lý SLA: Trong vòng 04 giờ làm việc.\n\n4. Quyết định của Trưởng phòng / Cấp thẩm quyền:\n[  ] ĐỒNG Ý PHÊ DUYỆT (APPROVED)\n[  ] TỪ CHỐI (REJECTED)\n[  ] YÊU CẦU CHỈNH SỬA / ĐÀM PHÁN LẠI (REVISION REQUIRED)\nÝ kiến phê duyệt: .............................................................\nChữ ký số: .....................................................................",
+        "trace_logs":  [
+                           {
+                               "inquiry_id":  "REQ-20261113-082048-812",
+                               "timestamp":  "2026-11-13 08:20:48",
+                               "step_name":  "1. Tiếp nhận \u0026 Phân tích yêu cầu",
+                               "skill_called":  "requirement_analysis",
+                               "tool_called":  "tool_extract_and_validate",
+                               "tool_input":  {
+                                                  "customer_name":  "C�ng ty C? ph?n Ch?ng kho�n SSI",
+                                                  "raw_text":  null
+                                              },
+                               "tool_output":  {
+                                                   "is_complete":  true,
+                                                   "missing_fields":  [
+
+                                                                      ]
+                                               },
+                               "rules_applied":  "Kiểm tra tính đầy đủ 5 trường: Customer, Email, Items, Budget, Deadline",
+                               "decision":  "Đầy đủ thông tin hợp lệ -\u003e Chuyển sang Thẩm định nghiệp vụ.",
+                               "execution_time_ms":  1
+                           },
+                           {
+                               "inquiry_id":  "REQ-20261113-082048-812",
+                               "timestamp":  "2026-11-13 08:20:48",
+                               "step_name":  "2. Thẩm định kho, giá \u0026 Ma trận phê duyệt",
+                               "skill_called":  "opportunity_evaluation",
+                               "tool_called":  "tool_evaluate_feasibility_and_pricing",
+                               "tool_input":  {
+                                                  "deadline":  15,
+                                                  "budget":  600000000,
+                                                  "items":  [
+                                                                {
+                                                                    "product_id":  "PROD-002",
+                                                                    "product_name":  "",
+                                                                    "quantity":  5
+                                                                }
+                                                            ]
+                                              },
+                               "tool_output":  {
+                                                   "subtotal":  425000000,
+                                                   "status":  "Chờ duyệt",
+                                                   "lead_time":  3,
+                                                   "final_total":  382500000
+                                               },
+                               "rules_applied":  "Bảng giá Master, Tồn kho ATP, Chính sách chiết khấu Tier 1-4, Thẩm quyền NVKD \u003c= 10% \u0026 \u003c= 200M",
+                               "decision":  "Xác định trạng thái: Chờ duyệt. Lý do: Giá trị đơn hàng (382,500,000 VND) vượt hạn mức phê duyệt NVKD (200,000,000 VND). Cần Trưởng phòng duyệt.",
+                               "execution_time_ms":  0
+                           },
+                           {
+                               "inquiry_id":  "REQ-20261113-082048-812",
+                               "timestamp":  "2026-11-13 08:20:48",
+                               "step_name":  "3. Tạo Hồ sơ, Dự thảo Email \u0026 Phiếu duyệt",
+                               "skill_called":  "sales_document_generator",
+                               "tool_called":  "tool_generate_dossier_email_ticket",
+                               "tool_input":  {
+                                                  "assigned_rep":  "Nguyễn Văn An",
+                                                  "status":  "Chờ duyệt"
+                                              },
+                               "tool_output":  {
+                                                   "has_email":  true,
+                                                   "has_dossier":  true,
+                                                   "has_ticket":  true
+                                               },
+                               "rules_applied":  "Mẫu hồ sơ B2B chuẩn, Quy chuẩn soạn thảo email chào giá, Phiếu trình duyệt Trưởng phòng",
+                               "decision":  "Hoàn tất tạo hồ sơ . Sẵn sàng bàn giao cho NVKD (Nguyễn Văn An).",
+                               "execution_time_ms":  1
+                           }
+                       ],
+        "processed_at":  "2026-11-13 08:20:48"
+    }
+]

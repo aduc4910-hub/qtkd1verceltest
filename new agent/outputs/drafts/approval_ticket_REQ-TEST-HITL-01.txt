@@ -1,0 +1,24 @@
+﻿PHIẾU CHUYỂN PHÊ DUYỆT NGOẠI LỆ (APPROVAL TICKET)
+Mã phiếu: TKT-REQ-TEST-HITL-01
+Thời gian tạo: 2026-11-13 07:56:15
+--------------------------------------------------------------------------------
+1. Thông tin Khách hàng & Cơ hội:
+- Khách hàng: Tập đoàn An Thịnh
+- Nhân viên đề xuất: Trần Thị Bình (binh.tt@minhan.com.vn)
+- Tổng giá trị đơn hàng sau chiết khấu: 774,000,000 VND
+- Tỷ lệ chiết khấu xin duyệt: 10%
+
+2. Căn cứ và Lý do chuyển duyệt:
+- Giá trị đơn hàng (774,000,000 VND) vượt hạn mức phê duyệt NVKD (200,000,000 VND). Cần Trưởng phòng duyệt.
+
+
+3. Cấp thẩm quyền phê duyệt:
+- Thẩm quyền xét duyệt: Trưởng phòng Kinh doanh (Hoàng Minh Trí - tri.hm@minhan.com.vn)
+- Hạn xử lý SLA: Trong vòng 04 giờ làm việc.
+
+4. Quyết định của Trưởng phòng / Cấp thẩm quyền:
+[  ] ĐỒNG Ý PHÊ DUYỆT (APPROVED)
+[  ] TỪ CHỐI (REJECTED)
+[  ] YÊU CẦU CHỈNH SỬA / ĐÀM PHÁN LẠI (REVISION REQUIRED)
+Ý kiến phê duyệt: .............................................................
+Chữ ký số: .....................................................................

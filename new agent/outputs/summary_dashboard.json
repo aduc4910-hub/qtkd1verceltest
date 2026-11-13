@@ -1,0 +1,69 @@
+﻿{
+    "total_inquiries":  7,
+    "status_breakdown":  {
+                             "Chờ duyệt":  2,
+                             "Cần bổ sung thông tin":  2,
+                             "Chưa đáp ứng":  2,
+                             "Có thể tiếp tục":  1
+                         },
+    "total_eligible_pipeline_value_vnd":  515190000,
+    "currency":  "VND",
+    "detailed_results":  [
+                             {
+                                 "inquiry_id":  "REQ-001",
+                                 "customer_name":  "Công ty TNHH Giải pháp Phần mềm FPT Tech",
+                                 "status":  "Có thể tiếp tục",
+                                 "final_total":  117760000,
+                                 "assigned_rep":  "Nguyễn Văn An",
+                                 "summary":  "Yêu cầu hợp lệ, đủ hàng/thời hạn và trong hạn mức thẩm quyền của NVKD."
+                             },
+                             {
+                                 "inquiry_id":  "REQ-002",
+                                 "customer_name":  "Tập đoàn Xây dựng An Thịnh",
+                                 "status":  "Cần bổ sung thông tin",
+                                 "final_total":  0,
+                                 "assigned_rep":  "Trần Thị Bình",
+                                 "summary":  "Yêu cầu THIẾU THÔNG TIN: Ngân sách dự kiến (budget). Rẽ nhánh: Gửi email yêu cầu KH làm rõ/bổ sung."
+                             },
+                             {
+                                 "inquiry_id":  "REQ-003",
+                                 "customer_name":  "Trường Quốc tế Smart Edu",
+                                 "status":  "Cần bổ sung thông tin",
+                                 "final_total":  0,
+                                 "assigned_rep":  "Lê Hoàng Cường",
+                                 "summary":  "Yêu cầu THIẾU THÔNG TIN: Thời hạn triển khai mong muốn (deadline_days). Rẽ nhánh: Gửi email yêu cầu KH làm rõ/bổ sung."
+                             },
+                             {
+                                 "inquiry_id":  "REQ-004",
+                                 "customer_name":  "Công ty Logistics Việt Vận",
+                                 "status":  "Chờ duyệt",
+                                 "final_total":  141680000,
+                                 "assigned_rep":  "Phạm Thu Dung",
+                                 "summary":  "Yêu cầu khả thi nhưng vượt thẩm quyền NVKD (Chiết khấu yêu cầu (12%) vượt khung tiêu chuẩn theo quy mô đơn hàng (8%).; Chiết khấu yêu cầu (12%) vượt hạn mức tối đa của NVKD (10%).). Chuyển Trưởng phòng duyệt."
+                             },
+                             {
+                                 "inquiry_id":  "REQ-005",
+                                 "customer_name":  "Ngân hàng Thương mại Cổ phần Đông Á Bank",
+                                 "status":  "Chờ duyệt",
+                                 "final_total":  255750000,
+                                 "assigned_rep":  "Vũ Minh Đức",
+                                 "summary":  "Yêu cầu khả thi nhưng vượt thẩm quyền NVKD (Tổng giá trị đơn hàng (275,000,000 VND) vượt thẩm quyền tự quyết của NVKD (200,000,000 VND).). Chuyển Trưởng phòng duyệt."
+                             },
+                             {
+                                 "inquiry_id":  "REQ-006",
+                                 "customer_name":  "Công ty CP Bán lẻ Thời trang VinaFashion",
+                                 "status":  "Chưa đáp ứng",
+                                 "final_total":  0,
+                                 "assigned_rep":  "Đặng Mai Phương",
+                                 "summary":  "Yêu cầu không khả thi do vi phạm thời hạn giao hàng hoặc ngân sách không đạt giá sàn."
+                             },
+                             {
+                                 "inquiry_id":  "REQ-007",
+                                 "customer_name":  "Startup Sáng tạo EduBot",
+                                 "status":  "Chưa đáp ứng",
+                                 "final_total":  0,
+                                 "assigned_rep":  "Nguyễn Văn An",
+                                 "summary":  "Yêu cầu không khả thi do vi phạm thời hạn giao hàng hoặc ngân sách không đạt giá sàn."
+                             }
+                         ]
+}

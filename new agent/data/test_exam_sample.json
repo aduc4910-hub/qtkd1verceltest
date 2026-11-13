@@ -1,0 +1,40 @@
+[
+  {
+    "inquiry_id": "EXAM-001",
+    "customer_name": "Công ty TNHH Dịch vụ Y tế Hoàn Mỹ",
+    "contact_email": "it@hoanmyclinic.vn",
+    "received_date": "2026-11-12",
+    "raw_text": "Kính chào Minh An, phòng khám chúng tôi cần mua 2 Máy chủ HPE ProLiant DL380 Gen10 và 2 Switch Cisco Catalyst 24-Port. Ngân sách dự kiến 200 triệu VND. Giao hàng trong 12 ngày làm việc. Chiết khấu mong muốn 7%.",
+    "extracted_data": {
+      "customer_name": "Công ty TNHH Dịch vụ Y tế Hoàn Mỹ",
+      "contact_email": "it@hoanmyclinic.vn",
+      "items": [
+        {"product_id": "PROD-002", "product_name": "Máy chủ HPE ProLiant DL380 Gen10", "quantity": 2},
+        {"product_id": "PROD-003", "product_name": "Cisco Catalyst Switch 24-Port", "quantity": 2}
+      ],
+      "budget": 200000000,
+      "deadline_days": 12,
+      "requested_discount_rate": 0.07
+    },
+    "case_category": "Đề thi thực hành - Trường hợp hợp lệ cần duyệt deal size lớn (206M > 200M)"
+  },
+  {
+    "inquiry_id": "EXAM-002",
+    "customer_name": "Viện Nghiên cứu Nông nghiệp Công nghệ cao",
+    "contact_email": "muasam@hitech-agri.gov.vn",
+    "received_date": "2026-11-12",
+    "raw_text": "Cần mua 12 Bộ phát WiFi 6 Cisco Business 150AX. Thời hạn giao hàng trong 10 ngày. Xin gửi báo giá cạnh tranh.",
+    "extracted_data": {
+      "customer_name": "Viện Nghiên cứu Nông nghiệp Công nghệ cao",
+      "contact_email": "muasam@hitech-agri.gov.vn",
+      "items": [
+        {"product_id": "PROD-004", "product_name": "Bộ phát WiFi 6 Cisco Business 150AX", "quantity": 12}
+      ],
+      "budget": null,
+      "deadline_days": 10,
+      "requested_discount_rate": 0.00
+    },
+    "case_category": "Đề thi thực hành - Trường hợp thiếu ngân sách"
+  }
+]
+

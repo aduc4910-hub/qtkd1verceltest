@@ -1,0 +1,19 @@
+﻿======================================================================
+PHIẾU CHUYỂN DUYỆT CƠ HỘI BÁN HÀNG VƯỢT THẨM QUYỀN (ESCALATION TICKET)
+Mã yêu cầu: EXAM-001 | Khách hàng: Công ty TNHH Dịch vụ Y tế Hoàn Mỹ
+NVKD phụ trách: Nguyễn Văn An (an.nv@minhan.com.vn)
+Người nhận phê duyệt: Hoàng Minh Trí - Trưởng phòng Kinh doanh
+----------------------------------------------------------------------
+1. THÔNG SỐ TÀI CHÍNH & VẬN HÀNH:
+   - Tổng giá niêm yết: 206,000,000 VND
+   - Mức chiết khấu xin duyệt: 7% (-14,420,000 VND)
+   - Doanh thu dự kiến: 191,580,000 VND
+   - Ngân sách khách hàng: 200,000,000 VND
+   - Thời gian giao hàng cam kết: 3 ngày (Hạn yêu cầu: 12 ngày)
+
+2. CĂN CỨ VƯỢT THẨM QUYỀN CẦN DUYỆT:
+- Tổng giá trị đơn hàng (206,000,000 VND) vượt thẩm quyền tự quyết của NVKD (200,000,000 VND).
+
+3. ĐỀ XUẤT CỦA NVKD & AGENT:
+   - Kính đề nghị Trưởng phòng phê duyệt để tiến hành ký kết hợp đồng.
+======================================================================

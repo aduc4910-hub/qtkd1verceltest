@@ -1,0 +1,53 @@
+[
+  {
+    "id": "PROD-001",
+    "name": "Laptop Dell Latitude 5540 (Core i7, 16GB, 512GB)",
+    "category": "Thiết bị đầu cuối",
+    "list_price": 25000000,
+    "available_stock": 20,
+    "ready_lead_time_days": 2,
+    "restock_lead_time_days": 14,
+    "description": "Laptop doanh nghiệp tiêu chuẩn, bảo hành 3 năm ProSupport"
+  },
+  {
+    "id": "PROD-002",
+    "name": "Máy chủ HPE ProLiant DL380 Gen10 (Xeon Silver 4210R, 32GB)",
+    "category": "Máy chủ & Lưu trữ",
+    "list_price": 85000000,
+    "available_stock": 5,
+    "ready_lead_time_days": 3,
+    "restock_lead_time_days": 21,
+    "description": "Máy chủ rack 2U hiệu năng cao dành cho doanh nghiệp vừa và lớn"
+  },
+  {
+    "id": "PROD-003",
+    "name": "Cisco Catalyst Switch 24-Port Gigabit PoE (C9200L-24P-4G-E)",
+    "category": "Thiết bị mạng",
+    "list_price": 18000000,
+    "available_stock": 15,
+    "ready_lead_time_days": 2,
+    "restock_lead_time_days": 10,
+    "description": "Switch mạng quản lý Layer 3 chuyên dụng cho văn phòng hiện đại"
+  },
+  {
+    "id": "PROD-004",
+    "name": "Bộ phát WiFi 6 Cisco Business 150AX Access Point",
+    "category": "Thiết bị mạng",
+    "list_price": 3500000,
+    "available_stock": 30,
+    "ready_lead_time_days": 1,
+    "restock_lead_time_days": 7,
+    "description": "Điểm truy cập không dây chuẩn WiFi 6 tốc độ cao, chịu tải 100 users"
+  },
+  {
+    "id": "PROD-005",
+    "name": "Dịch vụ Triển khai Cài đặt & Cấu hình Hệ thống (Gói Doanh nghiệp)",
+    "category": "Dịch vụ CNTT",
+    "list_price": 10000000,
+    "available_stock": 999,
+    "ready_lead_time_days": 3,
+    "restock_lead_time_days": 3,
+    "description": "Dịch vụ kỹ thuật onsite: lắp đặt rack, cấu hình VLAN, bàn giao tài liệu"
+  }
+]
+

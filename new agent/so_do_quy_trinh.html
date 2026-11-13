@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sơ Đồ Quy Trình Xử Lý Cơ Hội Bán Hàng B2B - Minh An Company</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 28px;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: #f4f7fb;
+      color: #1e293b;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .toolbar {
+      max-width: 1080px;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 16px;
+      background: #ffffff;
+      padding: 14px 22px;
+      border-radius: 12px;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.06);
+      border: 1px solid #e2e8f0;
+    }
+    .toolbar h1 {
+      font-size: 18px;
+      margin: 0;
+      color: #0f172a;
+    }
+    .btn-group {
+      display: flex;
+      gap: 10px;
+    }
+    .btn {
+      padding: 9px 16px;
+      border-radius: 8px;
+      border: 1px solid #cbd5e1;
+      background: #0284c7;
+      color: #fff;
+      font-weight: 700;
+      font-size: 13px;
+      cursor: pointer;
+      text-decoration: none;
+    }
+    .btn:hover { background: #0369a1; }
+    .diagram-card {
+      background: #ffffff;
+      border-radius: 16px;
+      padding: 24px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+      border: 1px solid #dce4f0;
+      max-width: 1080px;
+      width: 100%;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="toolbar">
+    <h1>📊 SƠ ĐỒ QUY TRÌNH XỬ LÝ CƠ HỘI BÁN HÀNG B2B — MINH AN COMPANY (AI AGENT + HITL)</h1>
+    <div class="btn-group">
+      <button class="btn" onclick="downloadSvg()">⬇️ Tải File Ảnh Sơ Đồ (.SVG)</button>
+      <button class="btn" style="background:#059669;" onclick="window.print()">🖨️ In / Lưu PDF</button>
+    </div>
+  </div>
+
+  <div class="diagram-card">
+    <svg id="standardFlowchartSvg" viewBox="0 0 1060 820" width="100%" style="max-width:1020px; height:auto; font-family:'Segoe UI', Arial, sans-serif;" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <marker id="arrBlue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+          <path d="M 0 1 L 10 5 L 0 9 z" fill="#2b579a"/>
+        </marker>
+      </defs>
+
+      <!-- NỀN TRẮNG XANH NHẠT CHUẨN LƯU ĐỒ MINH AN -->
+      <rect width="1060" height="820" rx="12" fill="#f8fafc"/>
+
+      <!-- TIÊU ĐỀ -->
+      <text x="530" y="38" text-anchor="middle" fill="#0f172a" font-size="20" font-weight="800">
+        QUY TRÌNH XỬ LÝ CƠ HỘI BÁN HÀNG B2B - MINH AN COMPANY (AI AGENT)
+      </text>
+
+      <!-- 1. BẮT ĐẦU (OVAL XANH LÁ NHẠT GIỐNG SƠ ĐỒ GỐC) -->
+      <rect x="270" y="60" width="280" height="58" rx="29" fill="#c6efce" stroke="#548235" stroke-width="2.2"/>
+      <text x="410" y="86" text-anchor="middle" fill="#1e293b" font-size="14" font-weight="700">Bắt đầu:</text>
+      <text x="410" y="105" text-anchor="middle" fill="#1e293b" font-size="14" font-weight="700">Tiếp nhận yêu cầu (Email / Form)</text>
+
+      <!-- Mũi tên xuống Phân loại -->
+      <line x1="410" y1="118" x2="410" y2="152" stroke="#2b579a" stroke-width="2.4" marker-end="url(#arrBlue)"/>
+
+      <!-- 2. PHÂN LOẠI & KIỂM TRA THÔNG TIN -->
+      <rect x="240" y="155" width="340" height="64" fill="#d9eaf7" stroke="#2b579a" stroke-width="2.2"/>
+      <text x="410" y="180" text-anchor="middle" fill="#0f172a" font-size="14" font-weight="700">🤖 Phân loại &amp; Kiểm tra thông tin</text>
+      <text x="410" y="199" text-anchor="middle" fill="#1e40af" font-size="12" font-weight="600">[AI Agent Tự động #1: tool_extract_and_validate]</text>
+      <text x="410" y="213" text-anchor="middle" fill="#475569" font-size="11">(Hạng mục, SL, Ngân sách, Thời hạn + Gán NVKD)</text>
+
+      <!-- Mũi tên xuống Thoi 1 -->
+      <line x1="410" y1="219" x2="410" y2="252" stroke="#2b579a" stroke-width="2.4" marker-end="url(#arrBlue)"/>
+
+      <!-- 3. HÌNH THOI 1: CÓ ĐỦ THÔNG TIN? -->
+      <polygon points="410,255 545,305 410,355 275,305" fill="#fde4c3" stroke="#c58b43" stroke-width="2.2"/>
+      <text x="410" y="300" text-anchor="middle" fill="#0f172a" font-size="14" font-weight="700">Có đủ</text>
+      <text x="410" y="318" text-anchor="middle" fill="#0f172a" font-size="14" font-weight="700">thông tin?</text>
+
+      <!-- Nhánh KHÔNG -> Yêu cầu KH làm rõ / bổ sung -->
+      <line x1="545" y1="305" x2="720" y2="305" stroke="#2b579a" stroke-width="2.4" marker-end="url(#arrBlue)"/>
+      <text x="630" y="295" text-anchor="middle" fill="#0f172a" font-size="14" font-weight="700">Không</text>
+
+      <rect x="722" y="268" width="290" height="74" fill="#d9eaf7" stroke="#2b579a" stroke-width="2.2"/>
+      <text x="867" y="293" text-anchor="middle" fill="#0f172a" font-size="14" font-weight="700">Yêu cầu KH làm rõ / bổ sung</text>
+      <text x="867" y="312" text-anchor="middle" fill="#b45309" font-size="12" font-weight="700">(Trạng thái: Cần bổ sung thông tin)</text>
+      <text x="867" y="329" text-anchor="middle" fill="#334155" font-size="11.5">🤖 AI tạo nháp hỏi lại • 👤 HITL #1: NVKD gửi</text>
+
+      <!-- Đường vòng từ Yêu cầu KH làm rõ quay về Bắt đầu -->
+      <path d="M 867 268 L 867 89 L 552 89" fill="none" stroke="#2b579a" stroke-width="2.2" marker-end="url(#arrBlue)"/>
+      <text x="720" y="80" text-anchor="middle" fill="#475569" font-size="12" font-weight="600">KH phản hồi bổ sung</text>
+
+      <!-- Nhánh CÓ -> Tạo Hồ sơ Cơ hội & Gán người phụ trách -->
+      <line x1="410" y1="355" x2="410" y2="395" stroke="#2b579a" stroke-width="2.4" marker-end="url(#arrBlue)"/>
+      <text x="432" y="380" fill="#0f172a" font-size="14" font-weight="700">Có</text>
+
+      <!-- 4. TẠO HỒ SƠ CƠ HỘI & GÁN NGƯỜI PHỤ TRÁCH -->
+      <rect x="250" y="398" width="320" height="54" fill="#d9eaf7" stroke="#2b579a" stroke-width="2.2"/>
+      <text x="410" y="422" text-anchor="middle" fill="#0f172a" font-size="14" font-weight="700">🤖 Tạo Hồ sơ Cơ hội &amp; Gán người phụ trách</text>
+      <text x="410" y="441" text-anchor="middle" fill="#1e40af" font-size="11.5">(Gán cố định 1 trong 6 NVKD: SR01–SR06)</text>
+
+      <line x1="410" y1="452" x2="410" y2="478" stroke="#2b579a" stroke-width="2.4" marker-end="url(#arrBlue)"/>
+
+      <!-- 5. THẨM ĐỊNH TỒN KHO & GIÁ -->
+      <rect x="250" y="480" width="320" height="58" fill="#d9eaf7" stroke="#2b579a" stroke-width="2.2"/>
+      <text x="410" y="505" text-anchor="middle" fill="#0f172a" font-size="14" font-weight="700">🤖 Thẩm định tồn kho, Lead time &amp; giá</text>
+      <text x="410" y="524" text-anchor="middle" fill="#1e40af" font-size="11.5">[AI Agent Tự động #2: Kho + Lead time + Chính sách CK]</text>
+
+      <!-- Chú thích bên phải giống sơ đồ gốc -->
+      <text x="645" y="503" fill="#334155" font-size="12.5" font-weight="600">Tra tự động dữ liệu</text>
+      <text x="645" y="521" fill="#334155" font-size="12.5" font-weight="600">Kho Vận hành &amp; Bảng giá</text>
+
+      <line x1="410" y1="538" x2="410" y2="564" stroke="#2b579a" stroke-width="2.4" marker-end="url(#arrBlue)"/>
+
+      <!-- 6. LẬP BÁO GIÁ & DỰ THẢO ĐỀ XUẤT -->
+      <rect x="250" y="566" width="320" height="56" fill="#d9eaf7" stroke="#2b579a" stroke-width="2.2"/>
+      <text x="410" y="590" text-anchor="middle" fill="#0f172a" font-size="14" font-weight="700">🤖 Lập Báo giá &amp; Dự thảo đề xuất</text>
+      <text x="410" y="609" text-anchor="middle" fill="#1e40af" font-size="11.5">[AI Agent Tự động #3: tool_generate_drafts_and_dossier]</text>
+
+      <!-- Nhánh phụ từ Bước 5/6 nếu Chưa đáp ứng kho/ngân sách -->
+      <rect x="22" y="558" width="195" height="70" rx="6" fill="#fee2e2" stroke="#dc2626" stroke-width="1.8"/>
+      <text x="119" y="580" text-anchor="middle" fill="#991b1b" font-size="12" font-weight="700">Nếu Quá hạn / Vượt ngân sách:</text>
+      <text x="119" y="597" text-anchor="middle" fill="#b91c1c" font-size="11.5" font-weight="700">&rarr; "Chưa đáp ứng"</text>
+      <text x="119" y="614" text-anchor="middle" fill="#334155" font-size="11">Đề xuất phương án thay thế</text>
+      <line x1="250" y1="594" x2="219" y2="594" stroke="#dc2662" stroke-width="1.8" stroke-dasharray="4 3"/>
+
+      <line x1="410" y1="622" x2="410" y2="650" stroke="#2b579a" stroke-width="2.4" marker-end="url(#arrBlue)"/>
+
+      <!-- 7. HÌNH THOI 2: CÓ VƯỢT THẨM QUYỀN / CẦN CHIẾT KHẤU ĐẶC BIỆT? -->
+      <polygon points="410,652 575,702 410,752 245,702" fill="#fde4c3" stroke="#c58b43" stroke-width="2.2"/>
+      <text x="410" y="695" text-anchor="middle" fill="#0f172a" font-size="13" font-weight="700">Có vượt thẩm quyền /</text>
+      <text x="410" y="712" text-anchor="middle" fill="#0f172a" font-size="13" font-weight="700">Cần chiết khấu đặc biệt?</text>
+      <text x="410" y="728" text-anchor="middle" fill="#7c2d12" font-size="10.5">(CK &gt; 10% hoặc Đơn &gt; 200M)</text>
+
+      <!-- Nhánh CÓ -> Trưởng phòng duyệt -->
+      <line x1="575" y1="702" x2="720" y2="702" stroke="#2b579a" stroke-width="2.4" marker-end="url(#arrBlue)"/>
+      <text x="645" y="692" text-anchor="middle" fill="#0f172a" font-size="14" font-weight="700">Có</text>
+
+      <rect x="722" y="666" width="290" height="72" fill="#d9eaf7" stroke="#2b579a" stroke-width="2.2"/>
+      <text x="867" y="691" text-anchor="middle" fill="#0f172a" font-size="14" font-weight="700">👔 Trưởng phòng duyệt (HITL #2)</text>
+      <text x="867" y="710" text-anchor="middle" fill="#6b21a8" font-size="12" font-weight="700">(Trạng thái: Chờ duyệt + Phiếu chuyển duyệt)</text>
+      <text x="867" y="726" text-anchor="middle" fill="#334155" font-size="11">Duyệt CK đến 15% &amp; Đơn &gt; 200M VND</text>
+
+      <!-- Mũi tên từ Trưởng phòng duyệt xuống Kết thúc -->
+      <path d="M 867 738 L 867 782 L 555 782" fill="none" stroke="#2b579a" stroke-width="2.4" marker-end="url(#arrBlue)"/>
+
+      <!-- Nhánh KHÔNG -> Kết thúc -->
+      <line x1="410" y1="752" x2="410" y2="754" stroke="#2b579a" stroke-width="2.4"/>
+      <text x="458" y="748" fill="#0f172a" font-size="13.5" font-weight="700">Không (Có thể tiếp tục - HITL #1)</text>
+
+      <!-- 8. KẾT THÚC: CẬP NHẬT & THEO DÕI (OVAL ĐỎ CAM GIỐNG SƠ ĐỒ GỐC) -->
+      <rect x="270" y="756" width="280" height="54" rx="27" fill="#f8aba6" stroke="#b84a39" stroke-width="2.2"/>
+      <text x="410" y="780" text-anchor="middle" fill="#0f172a" font-size="14" font-weight="700">Kết thúc: Cập nhật &amp; Theo dõi</text>
+      <text x="410" y="798" text-anchor="middle" fill="#1e293b" font-size="11.5">(Lưu Trace Log &amp; Bảng Tổng Hợp 4 Trạng Thái)</text>
+    </svg>
+  </div>
+
+  <script>
+    function downloadSvg() {
+      const svgEl = document.getElementById("standardFlowchartSvg");
+      const serializer = new XMLSerializer();
+      const source = '<?xml version="1.0" standalone="no"?>\r\n' + serializer.serializeToString(svgEl);
+      const blob = new Blob([source], { type: "image/svg+xml;charset=utf-8" });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = "so_do_quy_trinh_minh_an.svg";
+      a.click();
+    }
+  </script>
+</body>
+</html>
+

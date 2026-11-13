@@ -1,0 +1,79 @@
+{
+  "company_name": "Công ty Cổ phần Công nghệ Minh An",
+  "currency": "VND",
+  "sales_reps": [
+    {"id": "SR01", "name": "Nguyễn Văn An", "email": "an.nv@minhan.com.vn"},
+    {"id": "SR02", "name": "Trần Thị Bình", "email": "binh.tt@minhan.com.vn"},
+    {"id": "SR03", "name": "Lê Hoàng Cường", "email": "cuong.lh@minhan.com.vn"},
+    {"id": "SR04", "name": "Phạm Thu Dung", "email": "dung.pt@minhan.com.vn"},
+    {"id": "SR05", "name": "Vũ Minh Đức", "email": "duc.vm@minhan.com.vn"},
+    {"id": "SR06", "name": "Đặng Mai Phương", "email": "phuong.dm@minhan.com.vn"}
+  ],
+  "manager": {
+    "name": "Hoàng Minh Trí",
+    "role": "Trưởng phòng Kinh doanh",
+    "email": "tri.hm@minhan.com.vn"
+  },
+  "volume_discount_policy": [
+    {
+      "min_amount": 0,
+      "max_amount": 50000000,
+      "max_discount_rate": 0.00,
+      "tier_name": "Tier 1: Đơn hàng nhỏ (< 50M) - Không chiết khấu chuẩn"
+    },
+    {
+      "min_amount": 50000000,
+      "max_amount": 100000000,
+      "max_discount_rate": 0.05,
+      "tier_name": "Tier 2: Đơn hàng tiêu chuẩn (50M - 100M) - Chiết khấu tối đa 5%"
+    },
+    {
+      "min_amount": 100000000,
+      "max_amount": 200000000,
+      "max_discount_rate": 0.08,
+      "tier_name": "Tier 3: Đơn hàng khá lớn (100M - 200M) - Chiết khấu tối đa 8%"
+    },
+    {
+      "min_amount": 200000000,
+      "max_amount": 999999999999,
+      "max_discount_rate": 0.10,
+      "tier_name": "Tier 4: Đơn hàng chiến lược (> 200M) - Chiết khấu tối đa 10%"
+    }
+  ],
+  "approval_authority_matrix": {
+    "sales_rep": {
+      "max_discount_rate": 0.10,
+      "max_order_amount": 200000000,
+      "can_approve_rush_orders": false,
+      "scope": "Đơn hàng chuẩn nằm trong khung chiết khấu định mức và giá trị dưới 200 triệu VND"
+    },
+    "sales_manager": {
+      "max_discount_rate": 0.15,
+      "max_order_amount": 1000000000,
+      "can_approve_rush_orders": true,
+      "escalation_reasons": [
+        "Chiết khấu khách hàng yêu cầu vượt mức quy định của đơn hàng",
+        "Chiết khấu khách hàng yêu cầu vượt quá quyền 10% của NVKD",
+        "Tổng giá trị cơ hội vượt quá 200,000,000 VND",
+        "Thời hạn giao hàng gấp hơn Lead time tiêu chuẩn của kho vận"
+      ]
+    }
+  },
+  "mandatory_inquiry_fields": [
+    "customer_name",
+    "contact_email",
+    "items",
+    "budget",
+    "deadline_days"
+  ],
+  "safety_guardrails": {
+    "auto_confirm_prohibited": true,
+    "require_human_confirmation": true,
+    "rules": [
+      "Không bao giờ tự động gửi báo giá chốt bán hàng khi thiếu thông tin thiết yếu.",
+      "Không tự động phê duyệt nếu chiết khấu hoặc quy mô đơn hàng vượt thẩm quyền của NVKD.",
+      "Mọi đề xuất hợp lệ đều phải tạo bản nháp để NVKD kiểm tra cuối cùng trước khi gửi đối tác."
+    ]
+  }
+}
+

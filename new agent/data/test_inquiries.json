@@ -1,0 +1,136 @@
+[
+  {
+    "inquiry_id": "REQ-001",
+    "customer_name": "Công ty TNHH Giải pháp Phần mềm FPT Tech",
+    "contact_email": "procurement@fpttech.com.vn",
+    "received_date": "2026-11-10",
+    "raw_text": "Kính gửi Công ty Minh An, chúng tôi cần trang bị cho dự án mới gồm: 4 Laptop Dell Latitude 5540, 1 Cisco Catalyst Switch 24-Port và 1 Gói Dịch vụ Triển khai Cài đặt. Ngân sách tối đa của chúng tôi là 135 triệu VND. Đề nghị công ty chiết khấu 8% và giao hàng trong vòng 7 ngày làm việc.",
+    "extracted_data": {
+      "customer_name": "Công ty TNHH Giải pháp Phần mềm FPT Tech",
+      "contact_email": "procurement@fpttech.com.vn",
+      "items": [
+        {"product_id": "PROD-001", "product_name": "Laptop Dell Latitude 5540", "quantity": 4},
+        {"product_id": "PROD-003", "product_name": "Cisco Catalyst Switch 24-Port", "quantity": 1},
+        {"product_id": "PROD-005", "product_name": "Dịch vụ Triển khai Cài đặt", "quantity": 1}
+      ],
+      "budget": 135000000,
+      "deadline_days": 7,
+      "requested_discount_rate": 0.08
+    },
+    "case_category": "Thông thường (Happy Path - Đầy đủ thông tin, đủ hàng, giá chuẩn)"
+  },
+  {
+    "inquiry_id": "REQ-002",
+    "customer_name": "Tập đoàn Xây dựng An Thịnh",
+    "contact_email": "muasam@anthinhgroup.vn",
+    "received_date": "2026-11-10",
+    "raw_text": "Chào Minh An, bên anh cần mua 6 Laptop Dell Latitude 5540 và 2 Bộ phát WiFi 6 Cisco Business 150AX cho văn phòng công trường. Thời hạn bàn giao là 5 ngày tới. Chiết khấu hữu nghị 5% nhé. Hiện công ty chưa chốt ngân sách chi tiết, báo giá nhanh để trình sếp.",
+    "extracted_data": {
+      "customer_name": "Tập đoàn Xây dựng An Thịnh",
+      "contact_email": "muasam@anthinhgroup.vn",
+      "items": [
+        {"product_id": "PROD-001", "product_name": "Laptop Dell Latitude 5540", "quantity": 6},
+        {"product_id": "PROD-004", "product_name": "Bộ phát WiFi 6 Cisco Business 150AX", "quantity": 2}
+      ],
+      "budget": null,
+      "deadline_days": 5,
+      "requested_discount_rate": 0.05
+    },
+    "case_category": "Thiếu dữ liệu (Missing Info - Khách chưa cung cấp ngân sách)"
+  },
+  {
+    "inquiry_id": "REQ-003",
+    "customer_name": "Trường Quốc tế Smart Edu",
+    "contact_email": "admin@smartedu.edu.vn",
+    "received_date": "2026-11-11",
+    "raw_text": "Trường chúng tôi dự định mua 10 Bộ phát WiFi 6 Cisco Business 150AX và 1 Switch Cisco Catalyst 24-Port PoE. Ngân sách phòng Công nghệ thông tin được duyệt là 60 triệu VND. Xin gửi báo giá chi tiết, thời gian giao hàng chưa xác định cụ thể do phụ thuộc tiến độ cải tạo phòng học.",
+    "extracted_data": {
+      "customer_name": "Trường Quốc tế Smart Edu",
+      "contact_email": "admin@smartedu.edu.vn",
+      "items": [
+        {"product_id": "PROD-004", "product_name": "Bộ phát WiFi 6 Cisco Business 150AX", "quantity": 10},
+        {"product_id": "PROD-003", "product_name": "Cisco Catalyst Switch 24-Port", "quantity": 1}
+      ],
+      "budget": 60000000,
+      "deadline_days": null,
+      "requested_discount_rate": 0.00
+    },
+    "case_category": "Thiếu dữ liệu (Missing Info - Khách chưa xác định thời hạn triển khai)"
+  },
+  {
+    "inquiry_id": "REQ-004",
+    "customer_name": "Công ty Logistics Việt Vận",
+    "contact_email": "it.dept@vietvanlogistics.com",
+    "received_date": "2026-11-11",
+    "raw_text": "Gửi bộ phận kinh doanh Minh An. Chúng tôi cần mua 5 Laptop Dell Latitude 5540 và 2 Switch Cisco Catalyst 24-Port. Ngân sách 150 triệu VND, giao trong 10 ngày. Vì là khách hàng thân thiết, đề nghị chiết khấu đặc biệt 12% cho đơn này.",
+    "extracted_data": {
+      "customer_name": "Công ty Logistics Việt Vận",
+      "contact_email": "it.dept@vietvanlogistics.com",
+      "items": [
+        {"product_id": "PROD-001", "product_name": "Laptop Dell Latitude 5540", "quantity": 5},
+        {"product_id": "PROD-003", "product_name": "Cisco Catalyst Switch 24-Port", "quantity": 2}
+      ],
+      "budget": 150000000,
+      "deadline_days": 10,
+      "requested_discount_rate": 0.12
+    },
+    "case_category": "Ranh giới quy tắc (Boundary - Chiết khấu 12% vượt hạn mức NVKD tối đa 10%, cần Trưởng phòng duyệt)"
+  },
+  {
+    "inquiry_id": "REQ-005",
+    "customer_name": "Ngân hàng Thương mại Cổ phần Đông Á Bank",
+    "contact_email": "cntt@dongabank.com.vn",
+    "received_date": "2026-11-11",
+    "raw_text": "Phòng Hạ tầng Đông Á Bank yêu cầu báo giá gấp 3 Máy chủ HPE ProLiant DL380 Gen10 kèm 2 Gói Dịch vụ Cài đặt Cấu hình Doanh nghiệp. Ngân sách phê duyệt 270 triệu VND. Đề nghị chiết khấu 7%, bàn giao lắp đặt trong 15 ngày làm việc.",
+    "extracted_data": {
+      "customer_name": "Ngân hàng Thương mại Cổ phần Đông Á Bank",
+      "contact_email": "cntt@dongabank.com.vn",
+      "items": [
+        {"product_id": "PROD-002", "product_name": "Máy chủ HPE ProLiant DL380 Gen10", "quantity": 3},
+        {"product_id": "PROD-005", "product_name": "Dịch vụ Triển khai Cài đặt", "quantity": 2}
+      ],
+      "budget": 270000000,
+      "deadline_days": 15,
+      "requested_discount_rate": 0.07
+    },
+    "case_category": "Ranh giới quy tắc (Boundary - Giá trị đơn hàng 275M > 200M hạn mức NVKD, cần Trưởng phòng duyệt)"
+  },
+  {
+    "inquiry_id": "REQ-006",
+    "customer_name": "Công ty CP Bán lẻ Thời trang VinaFashion",
+    "contact_email": "tech@vinafashion.vn",
+    "received_date": "2026-11-11",
+    "raw_text": "Chúng tôi cần mở chuỗi 15 chi nhánh mới, cần gấp 25 Laptop Dell Latitude 5540. Ngân sách 650 triệu VND, chiết khấu 8%. Yêu cầu bắt buộc giao toàn bộ máy trong 4 ngày làm việc tới để kịp khai trương đồng loạt.",
+    "extracted_data": {
+      "customer_name": "Công ty CP Bán lẻ Thời trang VinaFashion",
+      "contact_email": "tech@vinafashion.vn",
+      "items": [
+        {"product_id": "PROD-001", "product_name": "Laptop Dell Latitude 5540", "quantity": 25}
+      ],
+      "budget": 650000000,
+      "deadline_days": 4,
+      "requested_discount_rate": 0.08
+    },
+    "case_category": "Chưa đáp ứng (Unfulfillable - Vượt tồn kho khả dụng và thời hạn 4 ngày < Lead time nhập hàng 14 ngày)"
+  },
+  {
+    "inquiry_id": "REQ-007",
+    "customer_name": "Startup Sáng tạo EduBot",
+    "contact_email": "founder@edubot.io",
+    "received_date": "2026-11-11",
+    "raw_text": "Chúng tôi cần 1 Máy chủ HPE ProLiant DL380 Gen10 và 1 Switch Cisco Catalyst 24-Port. Tuy nhiên kinh phí của dự án khởi nghiệp chỉ có đúng 70 triệu VND tối đa. Nếu công ty hỗ trợ được trong tuần này thì phản hồi sớm.",
+    "extracted_data": {
+      "customer_name": "Startup Sáng tạo EduBot",
+      "contact_email": "founder@edubot.io",
+      "items": [
+        {"product_id": "PROD-002", "product_name": "Máy chủ HPE ProLiant DL380 Gen10", "quantity": 1},
+        {"product_id": "PROD-003", "product_name": "Cisco Catalyst Switch 24-Port", "quantity": 1}
+      ],
+      "budget": 70000000,
+      "deadline_days": 7,
+      "requested_discount_rate": 0.15
+    },
+    "case_category": "Chưa đáp ứng (Unfulfillable - Ngân sách 70M thấp hơn giá tối thiểu sau chiết khấu kịch trần 15% là ~87.55M)"
+  }
+]
+

@@ -1,0 +1,82 @@
+﻿[
+    {
+        "decision_id":  "DEC-20261112-211639",
+        "opportunity_id":  "REQ-004",
+        "inquiry_id":  "REQ-004",
+        "decision":  "Approved",
+        "approver_name":  "Ho�ng Minh Tr� (Tru?ng ph�ng Kinh doanh)",
+        "approver_role":  "Trưởng phòng Kinh doanh",
+        "note":  "Ph� duy?t chi?t kh?u d?c bi?t 12% cho kh�ch h�ng chi?n lu?c Logistics Vi?t V?n",
+        "decided_at":  "2026-11-12 21:16:39"
+    },
+    {
+        "decision_id":  "DEC-20261112-211718",
+        "opportunity_id":  "REQ-004",
+        "inquiry_id":  "REQ-004",
+        "decision":  "Approved",
+        "approver_name":  "Ho�ng Minh Tr� (Tru?ng ph�ng Kinh doanh)",
+        "approver_role":  "Trưởng phòng Kinh doanh",
+        "note":  "Ph� duy?t chi?t kh?u d?c bi?t 12% cho kh�ch h�ng chi?n lu?c Logistics Vi?t V?n",
+        "decided_at":  "2026-11-12 21:17:18"
+    },
+    {
+        "decision_id":  "DEC-20261113-081033",
+        "opportunity_id":  "REQ-004",
+        "inquiry_id":  "REQ-004",
+        "decision":  "Approved",
+        "decision_type":  "APPROVED",
+        "approver_name":  "Ho�ng Minh Tr� (Tru?ng ph�ng Kinh doanh)",
+        "approver_role":  "Trưởng phòng Kinh doanh",
+        "note":  "D� xem x�t v� d?ng � chi?t kh?u d?c bi?t theo th?m quy?n.",
+        "decided_at":  "2026-11-13 08:10:33",
+        "timestamp":  "2026-11-13 08:10:33"
+    },
+    {
+        "decision_id":  "DEC-20261113-081142",
+        "opportunity_id":  "REQ-004",
+        "inquiry_id":  "REQ-004",
+        "decision":  "Approved",
+        "decision_type":  "APPROVED",
+        "approver_name":  "Ho�ng Minh Tr� (Tru?ng ph�ng Kinh doanh)",
+        "approver_role":  "Trưởng phòng Kinh doanh",
+        "note":  "D� xem x�t v� d?ng � chi?t kh?u d?c bi?t theo th?m quy?n.",
+        "decided_at":  "2026-11-13 08:11:42",
+        "timestamp":  "2026-11-13 08:11:42"
+    },
+    {
+        "decision_id":  "DEC-20261113-081304",
+        "opportunity_id":  "REQ-004",
+        "inquiry_id":  "REQ-004",
+        "decision":  "Approved",
+        "decision_type":  "APPROVED",
+        "approver_name":  "Ho�ng Minh Tr� (Tru?ng ph�ng Kinh doanh)",
+        "approver_role":  "Trưởng phòng Kinh doanh",
+        "note":  "D� xem x�t v� d?ng � chi?t kh?u d?c bi?t theo th?m quy?n.",
+        "decided_at":  "2026-11-13 08:13:04",
+        "timestamp":  "2026-11-13 08:13:04"
+    },
+    {
+        "decision_id":  "DEC-20261113-081330",
+        "opportunity_id":  "REQ-005",
+        "inquiry_id":  "REQ-005",
+        "decision":  "Revision Required",
+        "decision_type":  "REVISION",
+        "approver_name":  "Ho�ng Minh Tr� (Tru?ng ph�ng Kinh doanh)",
+        "approver_role":  "Trưởng phòng Kinh doanh",
+        "note":  "Y�u c?u d�m ph�n gi?m chi?t kh?u xu?ng t?i da 8%.",
+        "decided_at":  "2026-11-13 08:13:30",
+        "timestamp":  "2026-11-13 08:13:30"
+    },
+    {
+        "decision_id":  "DEC-20261113-081523",
+        "opportunity_id":  "REQ-TEST-HITL-01",
+        "inquiry_id":  "REQ-TEST-HITL-01",
+        "decision":  "Rejected",
+        "decision_type":  "REJECTED",
+        "approver_name":  "Ho�ng Minh Tr� (Tru?ng ph�ng Kinh doanh)",
+        "approver_role":  "Trưởng phòng Kinh doanh",
+        "note":  "Chi?t kh?u qu� cao 10% v� kh�ch h�ng kh�ng d�p ?ng di?u ki?n b?o l�nh thanh to�n.",
+        "decided_at":  "2026-11-13 08:15:23",
+        "timestamp":  "2026-11-13 08:15:23"
+    }
+]

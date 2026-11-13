@@ -1,0 +1,24 @@
+﻿PHIẾU CHUYỂN PHÊ DUYỆT NGOẠI LỆ (APPROVAL TICKET)
+Mã phiếu: TKT-REQ-007
+Thời gian tạo: 2026-11-13 07:35:30
+--------------------------------------------------------------------------------
+1. Thông tin Khách hàng & Cơ hội:
+- Khách hàng: Startup Sáng tạo EduBot
+- Nhân viên đề xuất: Vũ Minh Đức (duc.vm@minhan.com.vn)
+- Tổng giá trị đơn hàng sau chiết khấu: 87,550,000 VND
+- Tỷ lệ chiết khấu xin duyệt: 15%
+
+2. Căn cứ và Lý do chuyển duyệt:
+- Ngân sách của khách (70,000,000 VND) thấp hơn giá chào sau chiết khấu (87,550,000 VND, thiếu 17,550,000 VND).
+
+
+3. Cấp thẩm quyền phê duyệt:
+- Thẩm quyền xét duyệt: Trưởng phòng Kinh doanh (Hoàng Minh Trí - tri.hm@minhan.com.vn)
+- Hạn xử lý SLA: Trong vòng 04 giờ làm việc.
+
+4. Quyết định của Trưởng phòng / Cấp thẩm quyền:
+[  ] ĐỒNG Ý PHÊ DUYỆT (APPROVED)
+[  ] TỪ CHỐI (REJECTED)
+[  ] YÊU CẦU CHỈNH SỬA / ĐÀM PHÁN LẠI (REVISION REQUIRED)
+Ý kiến phê duyệt: .............................................................
+Chữ ký số: .....................................................................
